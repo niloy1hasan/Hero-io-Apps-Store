@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://example.com/img/app1.png",
+    "title": "TaskMaster Pro",
+    "companyName": "FocusWorks",
+    "id": 1,
+    "description": "Stay on top of your goals and projects with TaskMaster Pro — the ultimate productivity companion for individuals and teams. Organize your to-do lists, track project milestones, and collaborate effortlessly with real-time syncing. With smart reminders, AI-powered scheduling, and beautiful progress charts, you’ll never miss a deadline again. TaskMaster Pro integrates seamlessly with Google Calendar, Slack, and Trello to keep your workflow unified. Take control of your day and boost efficiency like never before.",
+    "size": 45,
+    "reviews": 1342,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 592 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app2.png",
+    "title": "FitTrack",
+    "companyName": "Wellness Labs",
+    "id": 2,
+    "description": "Transform your fitness journey with FitTrack — your personal health and wellness companion. Monitor your daily steps, calories burned, and heart rate with precision tracking. Create personalized workout plans and connect with certified trainers to reach your goals faster. FitTrack also offers nutrition guidance, hydration tracking, and sleep insights to help you maintain a balanced lifestyle. Whether you’re a beginner or a seasoned athlete, FitTrack keeps you motivated and moving toward your best self.",
+    "size": 80,
+    "reviews": 985,
+    "ratingAvg": 4.3,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 365 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app3.png",
+    "title": "PhotoCraft Studio",
+    "companyName": "PixelForge",
+    "id": 3,
+    "description": "PhotoCraft Studio lets your creativity shine with powerful photo editing tools and next-generation AI filters. From quick touch-ups to full-scale digital art compositions, you can craft masterpieces with precision and ease. Enjoy an intuitive interface, layer-based editing, and over 500 customizable effects. The app supports RAW editing, background removal, and instant social media exports. Whether you’re a beginner or a pro, PhotoCraft Studio transforms every shot into a work of art.",
+    "size": 120,
+    "reviews": 4120,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 330 },
+      { "name": "4 star", "count": 920 },
+      { "name": "5 star", "count": 2620 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app4.png",
+    "title": "NoteSync",
+    "companyName": "PaperCloud",
+    "id": 4,
+    "description": "Capture your thoughts, ideas, and inspirations instantly with NoteSync. Designed for productivity and simplicity, NoteSync allows you to create rich text notes, voice memos, and to-do lists — all securely synced across your devices. Organize your content with smart tags and folders, and access your notes anytime, even offline. The app uses encrypted cloud storage to keep your information private and protected. NoteSync is the perfect companion for students, professionals, and creative minds who never stop thinking.",
+    "size": 60,
+    "reviews": 2300,
+    "ratingAvg": 4.2,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 240 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 670 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app5.png",
+    "title": "BudgetPal",
+    "companyName": "FinEdge",
+    "id": 5,
+    "description": "Take charge of your finances with BudgetPal — your intelligent money management assistant. Track your expenses, create personalized budgets, and visualize your spending habits with detailed analytics. BudgetPal automatically categorizes your transactions and provides insights to help you save more. Set financial goals and receive gentle reminders to stay on track. With bank-grade security and data encryption, you can manage your finances confidently and conveniently — all from your phone.",
+    "size": 55,
+    "reviews": 875,
+    "ratingAvg": 4.5,
+    "downloads": 670000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 375 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app6.png",
+    "title": "RecipeRealm",
+    "companyName": "TasteTech",
+    "id": 6,
+    "description": "Discover a world of flavor with RecipeRealm — your ultimate cooking companion. Browse thousands of recipes from around the globe, each with detailed instructions and step-by-step videos. Create shopping lists, save your favorite dishes, and share your creations with the community. Whether you’re a beginner or a seasoned chef, RecipeRealm helps you cook with confidence. Try something new every day and bring the joy of cooking back to your kitchen.",
+    "size": 100,
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 1650 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app7.png",
+    "title": "TravelMate",
+    "companyName": "JourneySoft",
+    "id": 7,
+    "description": "Plan your next adventure effortlessly with TravelMate. Explore destinations, find attractions, and book hotels all in one place. Get real-time travel updates, currency converters, and offline maps for a smooth journey anywhere in the world. Save itineraries and share your trips with friends. TravelMate makes your travel experience smarter, safer, and more enjoyable — from departure to arrival.",
+    "size": 90,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 730 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app8.png",
+    "title": "MindEase",
+    "companyName": "CalmCore",
+    "id": 8,
+    "description": "Relax your mind and improve focus with MindEase — your personal guide to mindfulness and meditation. Explore guided sessions for sleep, stress, and anxiety relief, led by expert instructors. The app offers breathing exercises, mood tracking, and daily reminders to keep you grounded. With soothing sounds and calming visuals, MindEase helps you build a daily habit of peace and clarity. Find balance, anywhere, anytime.",
+    "size": 85,
+    "reviews": 5000,
+    "ratingAvg": 4.9,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 3880 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app9.png",
+    "title": "NewsPulse",
+    "companyName": "InfoStream Media",
+    "id": 9,
+    "description": "Stay informed with NewsPulse — the all-in-one news platform that brings global updates to your fingertips. Customize your feed by choosing categories that matter most to you, from politics and technology to entertainment and sports. Enjoy real-time notifications, ad-free reading, and offline mode for uninterrupted updates. With trusted sources and in-depth analysis, NewsPulse ensures you never miss what’s important.",
+    "size": 70,
+    "reviews": 2900,
+    "ratingAvg": 4.1,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 310 },
+      { "name": "3 star", "count": 520 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 910 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app10.png",
+    "title": "CryptoVault",
+    "companyName": "ChainGuard",
+    "id": 10,
+    "description": "Securely manage your cryptocurrency portfolio with CryptoVault. Track your investments in real time with live market data and analytics. Buy, sell, and exchange popular coins safely with built-in wallet protection. Advanced security measures ensure your assets remain private and encrypted. Perfect for beginners and experts alike, CryptoVault simplifies crypto management for everyone.",
+    "size": 95,
+    "reviews": 1420,
+    "ratingAvg": 4.6,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 620 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app11.png",
+    "title": "StudySprint",
+    "companyName": "Learnify",
+    "id": 11,
+    "description": "Ace your exams and boost your learning efficiency with StudySprint. Create digital flashcards, take quizzes, and track your academic progress with insightful analytics. StudySprint uses spaced repetition and smart reminders to help you retain information longer. Collaborate with classmates and share study materials effortlessly. Whether for school, college, or self-learning — StudySprint makes learning smarter.",
+    "size": 65,
+    "reviews": 1780,
+    "ratingAvg": 4.5,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app12.png",
+    "title": "Musicify",
+    "companyName": "SoundScape",
+    "id": 12,
+    "description": "Stream millions of songs, create custom playlists, and enjoy high-quality sound with Musicify. Discover new artists and genres every day, or dive into curated playlists that match your mood. Download your favorite tracks for offline listening and share music with friends instantly. With an ad-free premium option and cross-device sync, your music is always within reach. Experience sound like never before with Musicify.",
+    "size": 110,
+    "reviews": 8200,
+    "ratingAvg": 4.8,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 340 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 5460 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app13.png",
+    "title": "WeatherNow",
+    "companyName": "SkyWatch",
+    "id": 13,
+    "description": "Get hyper-accurate forecasts with WeatherNow — the weather app you can rely on. Receive real-time updates, severe weather alerts, and detailed radar maps for your region. Plan your day with hourly, daily, and 7-day forecasts powered by advanced meteorological models. Customize widgets and themes for your home screen to match your style. Whether you’re planning a trip or avoiding the rain, WeatherNow has you covered.",
+    "size": 50,
+    "reviews": 2650,
+    "ratingAvg": 4.3,
+    "downloads": 1700000,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 930 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app14.png",
+    "title": "GameBooster X",
+    "companyName": "TurboPlay",
+    "id": 14,
+    "description": "Boost your gaming performance with GameBooster X. Optimize RAM, clean cache, and reduce lag instantly with one tap. Monitor real-time FPS and system temperature while gaming. With built-in battery saver and customizable modes, you can play longer and smoother. GameBooster X ensures your device runs at peak performance for every game you love.",
+    "size": 40,
+    "reviews": 3800,
+    "ratingAvg": 4.7,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 220 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 2120 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app15.png",
+    "title": "Shoply",
+    "companyName": "RetailSync",
+    "id": 15,
+    "description": "Experience a smarter way to shop with Shoply — your one-stop destination for online deals and discounts. Browse thousands of products from trusted brands, compare prices instantly, and track deliveries in real-time. Personalized recommendations help you find what you love faster. Shoply also rewards loyal users with cashback offers and coupons. Shopping made simple, secure, and fun.",
+    "size": 75,
+    "reviews": 5200,
+    "ratingAvg": 4.2,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 340 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2540 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app16.png",
+    "title": "Langly",
+    "companyName": "PolyLingua",
+    "id": 16,
+    "description": "Learn a new language the fun and interactive way with Langly. Enjoy bite-sized lessons, speech recognition, and real conversations with native speakers. Langly adapts to your learning speed, helping you improve vocabulary and pronunciation effortlessly. Earn rewards as you progress and stay motivated with daily challenges. Speak confidently in your new language with Langly — your pocket tutor.",
+    "size": 105,
+    "reviews": 6900,
+    "ratingAvg": 4.8,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 280 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app17.png",
+    "title": "SafeNet",
+    "companyName": "CyberVault",
+    "id": 17,
+    "description": "Protect your online identity with SafeNet — your all-in-one VPN and cybersecurity solution. Browse the internet safely with military-grade encryption and global proxy servers. Block ads, trackers, and malware effortlessly while maintaining blazing-fast speeds. SafeNet ensures your personal data stays private whether you’re on Wi-Fi, mobile, or public networks. Experience true digital freedom with SafeNet.",
+    "size": 70,
+    "reviews": 3100,
+    "ratingAvg": 4.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1600 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app18.png",
+    "title": "Artify",
+    "companyName": "CanvasLab",
+    "id": 18,
+    "description": "Create stunning digital art with Artify — the perfect tool for artists of all levels. Experiment with brushes, layers, and AI-powered effects to bring your imagination to life. Artify supports stylus input and high-resolution canvases for professional-grade results. Save and share your artwork instantly across platforms. Whether sketching or illustrating, Artify empowers your creativity.",
+    "size": 125,
+    "reviews": 2550,
+    "ratingAvg": 4.6,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app19.png",
+    "title": "PetCare+",
+    "companyName": "HappyPaws",
+    "id": 19,
+    "description": "Keep your furry friends healthy and happy with PetCare+. Track vet visits, vaccination schedules, and diet plans in one easy app. Set reminders for walks, grooming, and medications. PetCare+ also connects you with local vets and pet services nearby. Manage every aspect of your pet’s well-being with love and care — powered by PetCare+.",
+    "size": 60,
+    "reviews": 1620,
+    "ratingAvg": 4.4,
+    "downloads": 720000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 640 }
+    ]
+  },
+  {
+    "image": "https://example.com/img/app20.png",
+    "title": "HomeEase",
+    "companyName": "SmartNest",
+    "id": 20,
+    "description": "Control your smart home effortlessly with HomeEase. Connect your lights, thermostats, and locks — all in one intuitive dashboard. Schedule automations, set energy-saving routines, and get instant alerts for unusual activity. With voice assistant compatibility and secure cloud syncing, managing your home has never been easier. HomeEase brings comfort, control, and security right to your fingertips.",
+    "size": 95,
+    "reviews": 1980,
+    "ratingAvg": 4.5,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 130 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 690 }
+    ]
+  }
+]
