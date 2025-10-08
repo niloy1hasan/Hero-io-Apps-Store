@@ -8,6 +8,7 @@ import './index.css'
 import App from './App.jsx'
 import Home from './Components/Home/Home.jsx';
 import AllApps from './Components/AllApps/AllApps.jsx';
+import Installation from './Components/Installation/Installation.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
     Component: App,
     children: [
       {index: true, Component: Home},
-      {path: "all-apps", Component: AllApps}
+      {path: "all-apps", Component: AllApps},
+      {path: "installation", Component: Installation}
     ]
   },
 ]);

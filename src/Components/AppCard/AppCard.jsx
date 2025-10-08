@@ -13,7 +13,7 @@ const AppCard = () => {
             <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-1.5 py-1.5 px-3 rounded-sm bg-[#F1F5E8]'>
                     <Download color="#00D390" />
-                    <spa className='text-[#00D390] font-bold'>9M</spa>
+                    <span className='text-[#00D390] font-bold'>9M</span>
                 </div>
                 <div className='flex items-center gap-1.5 bg-[#FFF0E1] py-1.5 px-3 rounded-sm'>
                     <img src="/src/assets/icon-ratings.png" className='w-4 h-4' alt="" />

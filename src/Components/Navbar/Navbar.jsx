@@ -15,7 +15,7 @@ const Navbar = () => {
                         <ul tabindex="0" className="menu menu-sm font-light dropdown-content bg-base-100 z-1 mt-3 w-[100vw] justify-center items-center p-2 shadow">
                             <li><NavLink to='/' className='text-[18px]'>Home</NavLink></li>
                             <li><NavLink to='all-apps' className='text-[18px]'>Apps</NavLink></li>
-                            <li><NavLink className='text-[18px]'>Installation</NavLink></li>
+                            <li><NavLink to='installation' className='text-[18px]'>Installation</NavLink></li>
                         </ul>
                     </div>
                 
@@ -32,7 +32,7 @@ const Navbar = () => {
                     <ul className="flex items-center gap-8 font-semibold px-1 text-black/90">
                         <li className='cursor-pointer'><NavLink to='/' className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent pb-1 border-b-2 border-[#632EE3]'>Home</NavLink></li>
                         <li className='cursor-pointer'><NavLink to='all-apps'>Apps</NavLink></li>
-                        <li className='cursor-pointer'><NavLink>Installation</NavLink></li>
+                        <li className='cursor-pointer'><NavLink to='installation'>Installation</NavLink></li>
                     </ul>
                 </div>
 
