@@ -5,7 +5,7 @@ const AppCard = () => {
     //const {imageURL, name, downloaded, ratings} = appData;
 
     return (
-        <div className='card bg-white p-4'>
+        <div className='card drop-shadow-[0_10px_20px_rgba(0,0,0,0.01)] bg-white p-4'>
             <div>
                 <img src='/src/assets/demo-app1.webp' alt="" className='rounded-lg w-full'/>
             </div>

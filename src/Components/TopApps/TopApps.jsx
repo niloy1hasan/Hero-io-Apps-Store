@@ -1,5 +1,7 @@
 import React from 'react';
-import TopAppsContainer from './TopAppsContainer';
+import AppsContainer from '../AppsContainer/AppsContainer';
+import { NavLink } from 'react-router';
+import AllApps from '../AllApps/AllApps';
 
 const TopApps = () => {
     return (
@@ -9,10 +11,10 @@ const TopApps = () => {
                 <p className='text-[#627382] py-4'>Explore All Trending Apps on the Market developed by us</p>
             </div>
 
-            <TopAppsContainer></TopAppsContainer>
+            <AppsContainer></AppsContainer>
             
             <div className='text-center'>
-                <a href="" className='btn bg-gradient-to-r px-6 from-[#632EE3] to-[#9F62F2] text-white my-5 lg:my-10'>Show All</a>
+                <NavLink to="all-apps" className='btn bg-gradient-to-r px-6 from-[#632EE3] to-[#9F62F2] text-white my-5 lg:my-10'>Show All</NavLink>
             </div>
         </section>
     );
