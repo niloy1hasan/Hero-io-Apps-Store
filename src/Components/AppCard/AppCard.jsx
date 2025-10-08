@@ -1,11 +1,17 @@
 import { Download } from 'lucide-react';
 import React from 'react';
+import { useNavigate } from 'react-router';
 
 const AppCard = () => {
     //const {imageURL, name, downloaded, ratings} = appData;
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/app-details');
+    }
 
     return (
-        <div className='card drop-shadow-[0_10px_20px_rgba(0,0,0,0.01)] bg-white p-4'>
+        <div onClick={handleClick} className='card select-none drop-shadow-[0_10px_20px_rgba(0,0,0,0.01)] bg-white p-4'>
             <div>
                 <img src='/src/assets/demo-app1.webp' alt="" className='rounded-lg w-full'/>
             </div>
