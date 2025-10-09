@@ -11,6 +11,7 @@ import AllApps from './Components/AllApps/AllApps.jsx';
 import Installation from './Components/Installation/Installation.jsx';
 import AppDetails from './Components/AppDetails/AppDetails.jsx';
 import PageNotFound from './Components/PageNotFound/PageNotFound.jsx';
+import AppsNotFound from './Components/AppsNotFound/AppsNotFound.jsx';
 
 // const getAllAppData = async() => {
 //   const res = await fetch('/public/apps-data.json');
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
       Component: AllApps},
       {path: "installation", Component: Installation},
       {path: "app-details", Component: AppDetails},
+      {path: "app-not-found", Component: AppsNotFound},
       {path: "*", Component: PageNotFound}
     ]
   },
