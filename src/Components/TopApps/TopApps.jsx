@@ -19,7 +19,7 @@ const TopApps = () => {
             <AppsContainer appData={getTopApps()}></AppsContainer>
             
             <div className='text-center'>
-                <NavLink to="all-apps" className='btn bg-gradient-to-r px-6 from-[#632EE3] to-[#9F62F2] text-white my-5 lg:my-10'>Show All</NavLink>
+                <NavLink to="all-apps" className='btn bg-gradient-to-r px-6 from-[#632EE3] to-[#9F62F2] text-white mb-5 lg:mb-10'>Show All</NavLink>
             </div>
         </section>
     );

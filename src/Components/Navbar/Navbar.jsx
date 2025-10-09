@@ -1,14 +1,9 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router';
+import { NavLink } from 'react-router-dom';
+
 
 const Navbar = () => {
 
-    const [activeMenu, setActiveMenu] = useState('Home');
-    const handleActiveMenu = (menuName) => {
-        setActiveMenu(menuName);
-    }
     const activeMenuStyle = "bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent pb-1 border-b-2 border-[#632EE3]";
-
     return (
         <>
         <nav className="navbar bg-base-100 shadow-sm">
@@ -37,9 +32,9 @@ const Navbar = () => {
 
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex items-center gap-8 font-semibold px-1 text-black/90">
-                        <li><NavLink to='/'  onClick={() => handleActiveMenu('Home')} className={`cursor-pointer ${activeMenu==='Home'? activeMenuStyle : ""}`}>Home</NavLink></li>
-                        <li><NavLink to='all-apps' onClick={() => handleActiveMenu('Apps')} className={`cursor-pointer ${activeMenu==='Apps'? activeMenuStyle : ""}`}>Apps</NavLink></li>
-                        <li><NavLink to='installation' onClick={() => handleActiveMenu('Installation')} className={`cursor-pointer ${activeMenu==='Installation'? activeMenuStyle : ""}`}>Installation</NavLink></li>
+                        <li><NavLink to='/' className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Home</NavLink></li>
+                        <li><NavLink to='all-apps' className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Apps</NavLink></li>
+                        <li><NavLink to='installation' className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Installation</NavLink></li>
                     </ul>
                 </div>
 
