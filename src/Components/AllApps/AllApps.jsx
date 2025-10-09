@@ -19,6 +19,8 @@ const AllApps = () => {
     } else {
       navigate('/app-not-found');
     }
+  } else {
+    setAppData(data);
   }
  }
 
