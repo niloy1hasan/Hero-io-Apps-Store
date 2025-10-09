@@ -1,12 +1,20 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import AppsContainer from "../AppsContainer/AppsContainer";
-import { useLoaderData, useNavigate } from "react-router";
+import { useLoaderData } from "react-router";
 
 const AllApps = () => {
   const data = useLoaderData();
   const [appData, setAppData] = useState(data);
   const [searchData, setsearchData] = useState('');
-  const navigate = useNavigate();
+  const [isEmptyList, setEmptyList] = useState(false);
+
+  const searchRef = useRef(null);
+
+  const showAllApps = () => {
+    searchRef.current.value = '';
+    setEmptyList(false);
+    setAppData(data);
+  }
 
  const handleInput = (e) => {
   const value = e.target.value;
@@ -14,10 +22,11 @@ const AllApps = () => {
   
   if(value.length>0){
     const newData = data.filter(item => item.title.toLowerCase().startsWith(value.toLowerCase()));
-    if(newData.length>0){
-      setAppData(newData);
+    setAppData(newData);
+    if(newData.length<=0){
+      setEmptyList(true);
     } else {
-      navigate('/app-not-found');
+      setEmptyList(false);
     }
   } else {
     setAppData(data);
@@ -34,12 +43,22 @@ const AllApps = () => {
         <h3 className="font-semibold text-[20px]"><span>({appData.length})</span> Apps Found</h3>
         <label className="input w-full lg:w-[400px] md:w-fit bg-transparent">
           <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g strokeLinejoin="round" strokeLinecap="round" strokeWidth="2.5" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></g></svg>
-          <input onChange={handleInput} defaultValue={searchData} type="search" className="placeholder:text-[#627382]" placeholder="Search Apps" />
+          <input ref={searchRef} onChange={handleInput} defaultValue={searchData} type="search" className="placeholder:text-[#627382]" placeholder="Search Apps" />
         </label>
       </div>
 
-
         <AppsContainer appData={appData}></AppsContainer>
+        
+        <section className={`${isEmptyList? 'flex':'hidden'} h-fit pb-10 w-10/12 mx-auto text-center justify-center items-center`}>
+            <div>
+                <img src="/src/assets/app-error.png" className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
+                <div className='my-8'>
+                    <h1 className='text-[#001931] font-bold text-3xl'>OPPS!! APP NOT FOUND</h1>
+                <p className='text-[#627382] py-2'>The App you are searching is not found on our system.  please search another apps</p>
+                    <button onClick={showAllApps} className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-10 py-5 text-[16px] my-1'>Show All Apps</button>
+                </div>
+            </div>
+        </section>
 
     </section>
   );
