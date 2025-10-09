@@ -1,9 +1,10 @@
 import React from 'react';
 import AppsContainer from '../AppsContainer/AppsContainer';
-import { NavLink } from 'react-router';
+import { NavLink, useLoaderData } from 'react-router';
 import AllApps from '../AllApps/AllApps';
 
 const TopApps = () => {
+    const appData = useLoaderData();
     return (
         <section className='pt-20 pb-10'>
             <div className='flex flex-col w-11/12 mx-auto items-center text-center'>
@@ -11,7 +12,7 @@ const TopApps = () => {
                 <p className='text-[#627382] py-4'>Explore All Trending Apps on the Market developed by us</p>
             </div>
 
-            <AppsContainer></AppsContainer>
+            <AppsContainer appData={appData}></AppsContainer>
             
             <div className='text-center'>
                 <NavLink to="all-apps" className='btn bg-gradient-to-r px-6 from-[#632EE3] to-[#9F62F2] text-white my-5 lg:my-10'>Show All</NavLink>

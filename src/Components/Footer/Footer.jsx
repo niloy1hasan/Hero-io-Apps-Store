@@ -11,12 +11,12 @@ const Footer = () => {
                    </div>
                    <p className='lg:max-w-92'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.</p>
                    <ul className='flex gap-1 lg:gap-3 text-[20px] lg:text-[24px]'>
-                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href=""><i className="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i className="fa-brands fa-instagram"></i></a></li>
                     <li><a href=""></a></li>
-                    <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-google-play"></i></a></li>
-                    <li><a href=""><i class="fa-brands fa-app-store-ios"></i></a></li>
+                    <li><a href=""><i className="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href=""><i className="fa-brands fa-google-play"></i></a></li>
+                    <li><a href=""><i className="fa-brands fa-app-store-ios"></i></a></li>
                    </ul>
             </div>
             <div>
@@ -60,9 +60,9 @@ const Footer = () => {
                 </div>
                 <div>
                     <ul className='flex flex-col lg:flex-row lg:gap-5'>
-                        <li className='hover:underline'><a href="">Privacy Policy</a></li>
-                        <li className='hover:underline'><a href="">Terms of Service</a></li>
-                        <li className='hover:underline'><a href="">Report a Problem</a></li>
+                        <li className='underline'><a href="">Privacy Policy</a></li>
+                        <li className='underline'><a href="">Terms of Service</a></li>
+                        <li className='underline'><a href="">Report a Problem</a></li>
                     </ul>
                 </div>
             </div>
