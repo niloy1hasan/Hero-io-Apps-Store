@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { NumberFormat } from '../../utils/NumberFormat';
 
 const AppInfo = ({appInfo}) => {
-    const {title, companyName, ratingAvg, downloads, reviews, size} = appInfo;
+    const installBtn = useRef(null);
+    const [isInstallDisabled, setInstallDisabled] = useState(false);
+    const {id, title, companyName, ratingAvg, downloads, reviews, size} = appInfo;
+
+    const appStates = JSON.parse(localStorage.getItem('installedApps')) || [];
+
+    useEffect(()=>{
+        const installed = appStates.find(item => item.id === id);
+        if(installed) setInstallDisabled(true);
+    }, [id]);
+
+    const installHandle = () => {
+        setInstallDisabled(true);
+
+        const updatedApps = [...appStates, appInfo];
+        localStorage.setItem('installedApps', JSON.stringify(updatedApps));
+    }
+
     return (
         <div className='flex flex-col items-center gap-7 lg:items-start lg:flex-row py-20'>
             <div>
@@ -53,7 +70,7 @@ const AppInfo = ({appInfo}) => {
                 </div>
 
 
-                <button className='btn bg-[#00D390] text-white py-6 px-7'>Install Now (<span>{size}MB</span>)</button>
+                <button ref={installBtn} onClick={installHandle} disabled={isInstallDisabled} className='btn bg-[#00D390] text-white py-6 px-7'>{isInstallDisabled? 'Installed' : `Install Now (${size}MB)`}</button>
             </div>
         </div>
     );

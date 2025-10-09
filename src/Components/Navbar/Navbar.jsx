@@ -15,9 +15,9 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                         </div>
                         <ul tabIndex="0" className="menu menu-sm font-light dropdown-content bg-base-100 z-1 mt-3 w-[100vw] justify-center items-center p-2 shadow">
-                            <li><NavLink to='/' className='text-[18px]'>Home</NavLink></li>
-                            <li><NavLink to='all-apps' className='text-[18px]'>Apps</NavLink></li>
-                            <li><NavLink to='installation' className='text-[18px]'>Installation</NavLink></li>
+                            <li><NavLink to='/' end className='text-[18px]'>Home</NavLink></li>
+                            <li><NavLink to='/all-apps' end className='text-[18px]'>Apps</NavLink></li>
+                            <li><NavLink to='/installation' end className='text-[18px]'>Installation</NavLink></li>
                         </ul>
                     </div>
                 
@@ -32,9 +32,9 @@ const Navbar = () => {
 
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex items-center gap-8 font-semibold px-1 text-black/90">
-                        <li><NavLink to='/' className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Home</NavLink></li>
-                        <li><NavLink to='all-apps' className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Apps</NavLink></li>
-                        <li><NavLink to='installation' className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Installation</NavLink></li>
+                        <li><NavLink to='/' end className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Home</NavLink></li>
+                        <li><NavLink to='/all-apps' end className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Apps</NavLink></li>
+                        <li><NavLink to='/installation' end className={({ isActive }) => `cursor-pointer ${isActive ? activeMenuStyle : ""}`}>Installation</NavLink></li>
                     </ul>
                 </div>
 
