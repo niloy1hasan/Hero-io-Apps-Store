@@ -18,20 +18,30 @@ import AppsNotFound from './Components/AppsNotFound/AppsNotFound.jsx';
 //   return res.json();
 // }
 
+const getAppData = async (id) => {
+  const res = await fetch('/apps-data.json');
+  const allData = await res.json();
+  const data = allData.find(item => item.id===Number(id));
+  return data || null;
+};
+
+
 const router = createBrowserRouter([
   {
     path: "/",
     Component: App,
     children: [
       {index: true,
-      loader: () => fetch('/public/apps-data.json'),  
+      loader: () => fetch('/apps-data.json'),  
       Component: Home},
       {path: "all-apps",
-      loader: () => fetch('/public/apps-data.json'),
+      loader: () => fetch('/apps-data.json'),
       Component: AllApps},
       {path: "installation", Component: Installation},
-      {path: "app-details", Component: AppDetails},
-      {path: "app-not-found", Component: AppsNotFound},
+      {path: "all-apps/:appId",
+        loader: ({params}) => getAppData(params.appId),
+        Component: AppDetails,
+        errorElement: <AppsNotFound></AppsNotFound>},
       {path: "*", Component: PageNotFound}
     ]
   },

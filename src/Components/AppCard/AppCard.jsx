@@ -4,11 +4,12 @@ import { useNavigate } from 'react-router';
 import { NumberFormat } from '../../utils/NumberFormat';
 
 const AppCard = ({data}) => {
-    const {image, title, id, downloads, ratingAvg} = data;
     const navigate = useNavigate();
 
+    const {title, id, downloads, ratingAvg} = data;
+
     const handleClick = () => {
-        navigate('/app-details');
+        navigate(`/all-apps/${id}`);
     }
 
     return (
