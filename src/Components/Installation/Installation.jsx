@@ -12,6 +12,16 @@ const Installation = () => {
       localStorage.setItem('installedApps', JSON.stringify(newData));
     }
 
+    const sortSelection = (e) => {
+      if(e.target.value==='High to Low'){
+        const descSort =  [...installed].sort((a, b) => b.downloads - a.downloads);
+        updateInstalled(descSort);
+      } else {
+        const descSort =  [...installed].sort((a, b) => a.downloads - b.downloads);
+        updateInstalled(descSort);
+      }
+    }
+
     return (
         <section className="pt-10 lg:pt-16 pb-16">
       <div className="text-center w-10/12 mx-auto">
@@ -21,7 +31,7 @@ const Installation = () => {
       <div className="flex items-center gap-3 py-4 justify-between w-[85%] lg:w-[90%] mx-auto">
         <h3 className="font-semibold text-[16px] lg:text-[20px]"><span>({installed.length})</span> Apps Found</h3>
 
-        <select defaultValue="Sort By" className="select w-36 lg:w-48 bg-[#f5f5f5]">
+        <select onChange={sortSelection} defaultValue="Sort By" className="select w-36 lg:w-48 bg-[#f5f5f5]">
           <option disabled={true}>Sort By</option>
           <option>High to Low</option>
           <option>Low to High</option>
