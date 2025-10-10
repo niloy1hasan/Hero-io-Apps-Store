@@ -9,3 +9,12 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.recharts-wrapper *:focus {
+  outline: none;
+}
+
+.recharts-bar-rectangle:focus,
+.recharts-bar-rectangle:focus-visible {
+  outline: none;
+}
