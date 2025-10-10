@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import InstalledAppContainer from '../InstalledAppContainer/InstalledAppContainer';
+import { useNavigate } from 'react-router';
 
 const Installation = () => {
     const installedList = JSON.parse(localStorage.getItem('installedApps'));
+    const navigate = useNavigate();
     
     const [installed, updateInstalled] = useState(installedList);
 
@@ -20,6 +22,10 @@ const Installation = () => {
         const descSort =  [...installed].sort((a, b) => a.downloads - b.downloads);
         updateInstalled(descSort);
       }
+    }
+
+    const handleClick = () => {
+      navigate('/all-apps');
     }
 
     return (
@@ -40,6 +46,16 @@ const Installation = () => {
 
       <InstalledAppContainer installed={installed} handleUninstall={handleUninstall}></InstalledAppContainer>
 
+      <div className={`${installed.length ? 'hidden' : 'flex'} h-[100vh] w-10/12 mx-auto text-center justify-center items-center`}>
+            <div>
+                <img src="/src/assets/app-error.png" className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
+                <div className='my-8'>
+                    <h1 className='text-[#001931] font-bold text-3xl'>No Apps Installed Yet</h1>
+                <p className='text-[#627382] py-2'>No Apps you are installed yet from our system.  please visit our all apps</p>
+                    <button onClick={handleClick} className='btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white px-10 py-5 text-[16px] my-1'>See All Apps</button>
+                </div>
+            </div>
+        </div>
     </section>
     );
 };

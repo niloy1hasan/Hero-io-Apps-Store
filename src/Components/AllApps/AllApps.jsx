@@ -30,6 +30,7 @@ const AllApps = () => {
     }
   } else {
     setAppData(data);
+    setEmptyList(false);
   }
  }
 
