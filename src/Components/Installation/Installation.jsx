@@ -67,7 +67,7 @@ const Installation = () => {
         }
       <InstalledAppContainer installed={installed} handleUninstall={handleUninstall}></InstalledAppContainer>
 
-      <div className={`${installed.length ? 'hidden' : 'flex'} h-[50vh] w-10/12 mx-auto text-center justify-center items-center`}>
+      <div className={`${installed.length ? 'hidden' : 'flex'} h-[100vh] w-10/12 mx-auto text-center justify-center items-center`}>
             <div>
                 <img src={appError} className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
                 <div className='my-8'>
