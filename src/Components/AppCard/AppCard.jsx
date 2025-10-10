@@ -6,7 +6,7 @@ import { NumberFormat } from '../../utils/NumberFormat';
 const AppCard = ({data}) => {
     const navigate = useNavigate();
 
-    const {title, id, downloads, ratingAvg} = data;
+    const {image, title, id, downloads, ratingAvg} = data;
 
     const handleClick = () => {
         navigate(`/all-apps/${id}`);
@@ -15,7 +15,7 @@ const AppCard = ({data}) => {
     return (
         <div onClick={handleClick} className='card select-none drop-shadow-[0_10px_20px_rgba(0,0,0,0.01)] bg-white p-4'>
             <div>
-                <img src='/src/assets/demo-app1.webp' alt="" className='rounded-lg w-full'/>
+                <img src={image} alt="" className='rounded-lg h-[180px] py-3 object-contain w-full'/>
             </div>
             <p className='py-4 font-medium text-lg'>{title}</p>
             <div className='flex justify-between items-center'>

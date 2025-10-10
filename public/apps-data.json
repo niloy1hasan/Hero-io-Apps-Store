@@ -1,362 +1,650 @@
 [
   {
-    "image": "https://example.com/img/app1.png",
-    "title": "TaskMaster Pro",
-    "companyName": "FocusWorks",
+    "image": "https://i.ibb.co.com/KjqXZdZy/google-news.webp",
+    "title": "Google News",
+    "companyName": "Google LLC",
     "id": 1,
-    "description": "Stay on top of your goals and projects with TaskMaster Pro — the ultimate productivity companion for individuals and teams. Organize your to-do lists, track project milestones, and collaborate effortlessly with real-time syncing. With smart reminders, AI-powered scheduling, and beautiful progress charts, you’ll never miss a deadline again. TaskMaster Pro integrates seamlessly with Google Calendar, Slack, and Trello to keep your workflow unified. Take control of your day and boost efficiency like never before.",
-    "size": 45,
-    "reviews": 1342,
-    "ratingAvg": 4.6,
-    "downloads": 500000,
-    "ratings": [
-      { "name": "1 star", "count": 50 },
-      { "name": "2 star", "count": 100 },
-      { "name": "3 star", "count": 200 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 592 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app2.png",
-    "title": "FitTrack",
-    "companyName": "Wellness Labs",
-    "id": 2,
-    "description": "Transform your fitness journey with FitTrack — your personal health and wellness companion. Monitor your daily steps, calories burned, and heart rate with precision tracking. Create personalized workout plans and connect with certified trainers to reach your goals faster. FitTrack also offers nutrition guidance, hydration tracking, and sleep insights to help you maintain a balanced lifestyle. Whether you’re a beginner or a seasoned athlete, FitTrack keeps you motivated and moving toward your best self.",
-    "size": 80,
-    "reviews": 985,
-    "ratingAvg": 4.3,
-    "downloads": 750000,
-    "ratings": [
-      { "name": "1 star", "count": 70 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 160 },
-      { "name": "4 star", "count": 300 },
-      { "name": "5 star", "count": 365 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app3.png",
-    "title": "PhotoCraft Studio",
-    "companyName": "PixelForge",
-    "id": 3,
-    "description": "PhotoCraft Studio lets your creativity shine with powerful photo editing tools and next-generation AI filters. From quick touch-ups to full-scale digital art compositions, you can craft masterpieces with precision and ease. Enjoy an intuitive interface, layer-based editing, and over 500 customizable effects. The app supports RAW editing, background removal, and instant social media exports. Whether you’re a beginner or a pro, PhotoCraft Studio transforms every shot into a work of art.",
-    "size": 120,
-    "reviews": 4120,
-    "ratingAvg": 4.8,
-    "downloads": 2000000,
-    "ratings": [
-      { "name": "1 star", "count": 110 },
-      { "name": "2 star", "count": 140 },
-      { "name": "3 star", "count": 330 },
-      { "name": "4 star", "count": 920 },
-      { "name": "5 star", "count": 2620 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app4.png",
-    "title": "NoteSync",
-    "companyName": "PaperCloud",
-    "id": 4,
-    "description": "Capture your thoughts, ideas, and inspirations instantly with NoteSync. Designed for productivity and simplicity, NoteSync allows you to create rich text notes, voice memos, and to-do lists — all securely synced across your devices. Organize your content with smart tags and folders, and access your notes anytime, even offline. The app uses encrypted cloud storage to keep your information private and protected. NoteSync is the perfect companion for students, professionals, and creative minds who never stop thinking.",
-    "size": 60,
-    "reviews": 2300,
-    "ratingAvg": 4.2,
-    "downloads": 1500000,
-    "ratings": [
-      { "name": "1 star", "count": 190 },
-      { "name": "2 star", "count": 240 },
-      { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 670 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app5.png",
-    "title": "BudgetPal",
-    "companyName": "FinEdge",
-    "id": 5,
-    "description": "Take charge of your finances with BudgetPal — your intelligent money management assistant. Track your expenses, create personalized budgets, and visualize your spending habits with detailed analytics. BudgetPal automatically categorizes your transactions and provides insights to help you save more. Set financial goals and receive gentle reminders to stay on track. With bank-grade security and data encryption, you can manage your finances confidently and conveniently — all from your phone.",
-    "size": 55,
-    "reviews": 875,
-    "ratingAvg": 4.5,
-    "downloads": 670000,
-    "ratings": [
-      { "name": "1 star", "count": 60 },
-      { "name": "2 star", "count": 70 },
-      { "name": "3 star", "count": 120 },
-      { "name": "4 star", "count": 250 },
-      { "name": "5 star", "count": 375 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app6.png",
-    "title": "RecipeRealm",
-    "companyName": "TasteTech",
-    "id": 6,
-    "description": "Discover a world of flavor with RecipeRealm — your ultimate cooking companion. Browse thousands of recipes from around the globe, each with detailed instructions and step-by-step videos. Create shopping lists, save your favorite dishes, and share your creations with the community. Whether you’re a beginner or a seasoned chef, RecipeRealm helps you cook with confidence. Try something new every day and bring the joy of cooking back to your kitchen.",
-    "size": 100,
-    "reviews": 3200,
-    "ratingAvg": 4.7,
-    "downloads": 900000,
-    "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 350 },
-      { "name": "4 star", "count": 850 },
-      { "name": "5 star", "count": 1650 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app7.png",
-    "title": "TravelMate",
-    "companyName": "JourneySoft",
-    "id": 7,
-    "description": "Plan your next adventure effortlessly with TravelMate. Explore destinations, find attractions, and book hotels all in one place. Get real-time travel updates, currency converters, and offline maps for a smooth journey anywhere in the world. Save itineraries and share your trips with friends. TravelMate makes your travel experience smarter, safer, and more enjoyable — from departure to arrival.",
-    "size": 90,
-    "reviews": 2100,
-    "ratingAvg": 4.4,
-    "downloads": 1300000,
-    "ratings": [
-      { "name": "1 star", "count": 130 },
-      { "name": "2 star", "count": 170 },
-      { "name": "3 star", "count": 320 },
-      { "name": "4 star", "count": 750 },
-      { "name": "5 star", "count": 730 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app8.png",
-    "title": "MindEase",
-    "companyName": "CalmCore",
-    "id": 8,
-    "description": "Relax your mind and improve focus with MindEase — your personal guide to mindfulness and meditation. Explore guided sessions for sleep, stress, and anxiety relief, led by expert instructors. The app offers breathing exercises, mood tracking, and daily reminders to keep you grounded. With soothing sounds and calming visuals, MindEase helps you build a daily habit of peace and clarity. Find balance, anywhere, anytime.",
-    "size": 85,
-    "reviews": 5000,
-    "ratingAvg": 4.9,
-    "downloads": 3000000,
-    "ratings": [
-      { "name": "1 star", "count": 80 },
-      { "name": "2 star", "count": 90 },
-      { "name": "3 star", "count": 230 },
-      { "name": "4 star", "count": 720 },
-      { "name": "5 star", "count": 3880 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app9.png",
-    "title": "NewsPulse",
-    "companyName": "InfoStream Media",
-    "id": 9,
-    "description": "Stay informed with NewsPulse — the all-in-one news platform that brings global updates to your fingertips. Customize your feed by choosing categories that matter most to you, from politics and technology to entertainment and sports. Enjoy real-time notifications, ad-free reading, and offline mode for uninterrupted updates. With trusted sources and in-depth analysis, NewsPulse ensures you never miss what’s important.",
+    "description": [
+    "Google News is a powerful news aggregation app that organizes headlines from thousands of sources worldwide, delivering a comprehensive and personalized news experience. It uses advanced algorithms to surface the most relevant and trustworthy stories, allowing users to stay informed without sifting through countless websites. The app provides coverage on topics ranging from global politics and business to science, sports, and entertainment, all in one convenient platform.",
+    "The app offers a fully customizable experience, letting users follow topics, sources, and locations of interest. Google News uses AI to learn your preferences over time, curating news tailored to your tastes while ensuring diversity in viewpoints. The 'Full Coverage' feature presents multiple perspectives on a story, giving users a balanced understanding of events and avoiding echo chambers.",
+    "Google News integrates rich multimedia content, including images, videos, and live updates, for a more engaging news experience. Users can also save articles to read offline and share stories directly to social media or messaging apps. The clean, intuitive interface makes navigating categories and accessing breaking news effortless, whether on a phone, tablet, or desktop.",
+    "For deeper insight, the app includes fact-checking tools, context for developing stories, and timelines that track how news unfolds over time. It also allows users to explore local news from their area, ensuring they stay connected to events that matter most to their communities. With real-time alerts and notifications, users never miss critical updates.",
+    "Whether you’re a casual reader or a news enthusiast, Google News combines speed, personalization, and reliability. It transforms the way people consume information, empowering them to make informed decisions in an ever-changing world. By blending cutting-edge technology with trusted journalism, Google News makes staying informed simple, accessible, and insightful."
+  ],
     "size": 70,
     "reviews": 2900,
     "ratingAvg": 4.1,
     "downloads": 2200000,
     "ratings": [
-      { "name": "1 star", "count": 260 },
-      { "name": "2 star", "count": 310 },
-      { "name": "3 star", "count": 520 },
+      { "name": "5 star", "count": 910 },
       { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 910 }
+      { "name": "3 star", "count": 520 },
+      { "name": "2 star", "count": 310 },
+      { "name": "1 star", "count": 260 }
     ]
   },
   {
-    "image": "https://example.com/img/app10.png",
-    "title": "CryptoVault",
-    "companyName": "ChainGuard",
-    "id": 10,
-    "description": "Securely manage your cryptocurrency portfolio with CryptoVault. Track your investments in real time with live market data and analytics. Buy, sell, and exchange popular coins safely with built-in wallet protection. Advanced security measures ensure your assets remain private and encrypted. Perfect for beginners and experts alike, CryptoVault simplifies crypto management for everyone.",
-    "size": 95,
-    "reviews": 1420,
+    "image": "https://i.ibb.co.com/wNgxW9Ty/youtube.webp",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 2,
+    "description": [
+    "YouTube is the world’s leading video-sharing platform, offering billions of videos across countless categories such as entertainment, education, music, gaming, and more. It allows users to watch, upload, and share content seamlessly, making it a central hub for creative expression and information discovery. Whether you want to learn a new skill, follow trending topics, or relax with your favorite content creator, YouTube has it all.",
+    "The platform offers powerful personalization through smart recommendations, ensuring each user receives content suited to their interests. YouTube’s algorithm learns your preferences over time, suggesting videos that match your viewing habits while introducing fresh ideas and creators. Subscriptions allow you to keep up with your favorite channels and creators effortlessly.",
+    "YouTube integrates a range of features, including playlists, offline viewing, and live streaming. The app supports high-quality playback and adaptive streaming, ensuring smooth viewing even on varying internet speeds. Users can interact through likes, comments, shares, and live chats, creating an engaging, social experience.",
+    "For creators, YouTube provides powerful tools for video editing, analytics, and monetization. With options like YouTube Shorts, livestreams, and community posts, creators can connect with their audience in diverse ways. YouTube also offers premium features such as ad-free viewing and background play for a seamless experience.",
+    "Whether you’re a casual viewer, a dedicated learner, or an aspiring creator, YouTube delivers endless possibilities for entertainment and education. It’s not just an app — it’s a global stage where ideas, stories, and cultures converge."
+  ],
+    "size": 339.4,
+    "reviews": 5600000,
     "ratingAvg": 4.6,
-    "downloads": 850000,
+    "downloads": 10000000000,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 120 },
-      { "name": "3 star", "count": 180 },
-      { "name": "4 star", "count": 400 },
-      { "name": "5 star", "count": 620 }
+      { "name": "5 star", "count": 3000000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "1 star", "count": 500000 }
     ]
   },
   {
-    "image": "https://example.com/img/app11.png",
-    "title": "StudySprint",
-    "companyName": "Learnify",
+    "image": "https://i.ibb.co.com/dssWmCg6/facebook.webp",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": [
+    "Facebook is a leading social networking platform that connects people around the world, allowing them to share experiences, ideas, and updates instantly. It’s designed to bring friends, family, communities, and interests together in a dynamic digital space. From personal updates to global news, Facebook keeps you connected to what matters most.",
+    "The app offers a customizable feed that surfaces relevant posts, events, and announcements based on your activity and preferences. Users can follow pages, join groups, and interact with content through likes, comments, and shares. This personalized experience fosters meaningful connections while keeping users engaged with diverse content.",
+    "Facebook integrates a wide range of features including messaging, live video streaming, marketplace shopping, and event organization. It provides tools for both personal and business use, allowing individuals to connect socially and brands to engage with their audience effectively. Stories and Reels offer quick, creative ways to share moments instantly.",
+    "For communities, Facebook Groups provide a dedicated space for people with shared interests to connect, collaborate, and share resources. The app also prioritizes safety and privacy with robust settings that let users control who sees their content and how they interact with others.",
+    "Whether staying in touch with friends, discovering news, shopping online, or joining community discussions, Facebook delivers a comprehensive social experience. It transforms everyday communication into an interactive, global exchange of ideas and connections."
+  ],
+    "size": 391.4,
+    "reviews": 22800000,
+    "ratingAvg": 4.5,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "5 star", "count": 10000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "1 star", "count": 2800000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/G4LPjZDc/whatsapp.webp",
+    "title": "WhatsApp",
+    "companyName": "WhatsApp Inc.",
+    "id": 4,
+    "description": [
+    "WhatsApp is one of the world’s most popular messaging apps, offering secure, fast, and reliable communication for over two billion users globally. It allows users to send text messages, voice notes, photos, videos, documents, and even locations instantly. With end-to-end encryption, all conversations are private and safe from third-party access.",
+    "The app supports individual and group chats, making it easy to stay connected with friends, family, and colleagues. WhatsApp also includes voice and video calling, delivering high-quality calls across different devices and internet conditions. Group video calls and voice chats make collaboration and socializing more engaging.",
+    "WhatsApp integrates smoothly with a user’s phonebook, ensuring contacts are readily available without extra setup. It also allows users to share status updates, a feature that keeps friends informed through photos, videos, and text visible for 24 hours.",
+    "The app is designed for convenience, offering a clean interface, quick search tools, and powerful multimedia support. WhatsApp Web allows users to sync their chats to a computer, making it easy to work and communicate seamlessly.",
+    "Whether for personal connection or professional communication, WhatsApp delivers a simple yet powerful platform for instant messaging and voice/video interaction. Its focus on privacy and ease of use makes it a top choice for global communication."
+  ],
+    "size": 128.6,
+    "reviews": 121300,
+    "ratingAvg": 4.7,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "5 star", "count": 100000000 },
+      { "name": "4 star", "count": 80000000 },
+      { "name": "3 star", "count": 50000000 },
+      { "name": "2 star", "count": 30000000 },
+      { "name": "1 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/84LctR5D/instagram.webp",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 5,
+     "description": [
+    "Instagram is a leading visual storytelling platform where people share moments, creativity, and culture through photos, videos, and Stories. It allows users to connect through visually engaging content, whether for personal expression, brand promotion, or creative inspiration.",
+    "The app offers a variety of content formats including posts, Stories, Reels, and IGTV. Users can enhance their content with filters, effects, music, and captions, creating unique and captivating visuals. The Explore page curates personalized content, helping users discover new creators and trends.",
+    "Instagram integrates powerful social features, enabling users to follow profiles, comment, share, and engage with content. It fosters interactive communication through likes, direct messages, live streams, and polls in Stories. This creates a dynamic and immersive social experience.",
+    "For creators and brands, Instagram offers tools for audience growth, analytics, and monetization. Shopping integration allows businesses to sell products directly on the platform, making it a hub for social commerce.",
+    "Whether for personal sharing, professional branding, or entertainment, Instagram delivers an immersive visual experience. It transforms how people express themselves, connect with others, and explore the world."
+  ],
+    "size": 391.4,
+    "reviews": 28200000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "5 star", "count": 15000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "1 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nNSSrFvv/twitter-x.webp",
+    "title": "X",
+    "companyName": "X Corp.",
+    "id": 6,
+    "description": [
+    "X, formerly known as Twitter, is a powerful social media platform for real-time communication and news. It allows users to share short messages called Tweets, engage in conversations, and follow topics of interest. The platform thrives on instant updates, trending discussions, and direct interactions.",
+    "The app features a feed curated by interests, following, and trending topics, ensuring users are always in touch with the latest events. Hashtags, retweets, and quote tweets help conversations spread quickly, while replies enable dynamic interaction between users.",
+    "X integrates multimedia support, allowing photos, videos, GIFs, and polls to accompany text posts. This makes discussions more engaging and expressive. Live updates and breaking news alerts keep users informed on global developments in real time.",
+    "The platform offers tools for personalization, letting users follow specific accounts, lists, and topics. For creators and influencers, X provides analytics, monetization options, and audience engagement tools to maximize reach.",
+    "Whether you want to stay updated, join trending conversations, or share your voice with the world, X offers a vibrant, fast-paced social environment. It transforms news, discussions, and networking into a single interactive space."
+  ],
+    "size": 391.4,
+    "reviews": 22800000,
+    "ratingAvg": 3.7,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "5 star", "count": 5000000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "1 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Dg6KZzd2/telegram.webp",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "id": 7,
+    "description": [
+    "Telegram is a cloud-based messaging app designed for speed, security, and seamless communication. It offers powerful tools for sending messages, photos, videos, files, and even large documents with ease. Its multi-device support allows users to stay connected anytime, anywhere.",
+    "The app provides robust privacy and security features, including end-to-end encrypted chats, self-destructing messages, and secure file sharing. Telegram’s commitment to privacy makes it a trusted choice for personal and professional communication.",
+    "Telegram supports group chats with thousands of members, channels for broadcasting messages, and powerful bots for automation. This flexibility makes it popular for communities, organizations, and businesses to share information and engage audiences.",
+    "The platform offers a range of customization options including themes, chat folders, and sticker packs. Voice chats and video calls add versatility, while the seamless cloud sync ensures your messages and media are always accessible.",
+    "Whether for private messaging, community building, or large-scale communication, Telegram delivers a secure, feature-rich platform. Its speed, privacy focus, and extensive tools make it a unique choice in the messaging landscape."
+  ],
+    "size": 128.6,
+    "reviews": 100000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "5 star", "count": 60000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "1 star", "count": 5000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PsJxTZGZ/linkedin.webp",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 8,
+    "description": [
+    "LinkedIn is the world’s largest professional networking platform, connecting individuals, businesses, and organizations globally. It provides tools for career development, networking, job hunting, and industry news, making it essential for professionals and companies alike.",
+    "The app allows users to create professional profiles, showcase skills, and share updates to build personal brands. It connects users with potential employers, collaborators, and industry peers, creating opportunities for career growth and networking.",
+    "LinkedIn’s personalized feed delivers news, articles, and posts relevant to your industry and interests. Users can join groups, follow companies, and interact with content to expand their professional reach.",
+    "For recruiters and businesses, LinkedIn offers advanced tools to post job listings, search for candidates, and manage talent pipelines. Analytics and insights help track engagement and performance.",
+    "Whether you’re seeking new career opportunities, industry updates, or professional connections, LinkedIn delivers a comprehensive networking experience. It transforms the way people discover, connect, and grow in their careers."
+  ],
+    "size": 95,
+    "reviews": 38000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "5 star", "count": 19000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "1 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nNtSyP5z/notion.webp",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 9,
+    "description": [
+    "Notion is an all-in-one workspace that combines note-taking, project management, and collaboration tools in a single app. It allows individuals and teams to organize work, manage tasks, and share information seamlessly.",
+    "The app provides flexible templates for notes, databases, wikis, calendars, and task boards, making it easy to customize workflows. Users can structure their workspace to fit personal productivity or team collaboration needs.",
+    "Notion supports real-time collaboration, allowing teams to work together on projects with shared documents, task assignments, and comments. Its intuitive interface and drag-and-drop features make organization simple and efficient.",
+    "Integration with third-party tools such as Google Drive, Slack, and Trello enhances Notion’s versatility. Users can embed media, code snippets, and documents for a richer workspace experience.",
+    "Whether for personal planning or team collaboration, Notion is a powerful productivity hub. It transforms how people create, manage, and share knowledge, making work more organized and productive."
+  ],
+    "size": 327.9,
+    "reviews": 68500,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "5 star", "count": 50000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "1 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/HLkS3MJM/chatgpt.webp",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 10,
+    "description": [
+    "ChatGPT is an advanced conversational AI developed by OpenAI that delivers intelligent, natural language interactions. It can answer questions, explain concepts, assist with writing, and even generate creative content, making it a versatile tool for users of all backgrounds.",
+    "The app uses cutting-edge language models to understand context, generate coherent responses, and engage in meaningful dialogue. Whether you’re seeking knowledge, brainstorming ideas, or getting help with tasks, ChatGPT offers instant support.",
+    "ChatGPT supports multiple modes including casual conversation, educational assistance, coding help, and content generation. Users can tailor their experience to fit personal or professional needs.",
+    "It is designed to be intuitive and accessible, with a user-friendly interface that makes interacting with AI straightforward. ChatGPT continually improves by learning from user feedback and evolving its understanding of context.",
+    "Whether for learning, creativity, or productivity, ChatGPT provides a powerful AI companion that enhances how people communicate and solve problems."
+  ],
+    "size": 60,
+    "reviews": 95000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "5 star", "count": 65000 },
+      { "name": "4 star", "count": 20000 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "1 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d16xvXh/lightroom.webp",
+    "title": "Adobe Lightroom",
+    "companyName": "Adobe",
     "id": 11,
-    "description": "Ace your exams and boost your learning efficiency with StudySprint. Create digital flashcards, take quizzes, and track your academic progress with insightful analytics. StudySprint uses spaced repetition and smart reminders to help you retain information longer. Collaborate with classmates and share study materials effortlessly. Whether for school, college, or self-learning — StudySprint makes learning smarter.",
+    "description": [
+    "Adobe Lightroom is a professional photo editing and management app that brings powerful editing tools to mobile and desktop devices. It allows photographers of all levels to capture, enhance, and organize their images with precision.",
+    "The app offers a range of editing features including exposure adjustment, color correction, presets, and advanced retouching tools. Lightroom’s non-destructive editing ensures that original images remain intact while edits are applied.",
+    "Lightroom supports RAW image editing, giving users control over every detail of their photos. Its intuitive interface makes complex edits accessible, whether adjusting tone curves or fine-tuning colors.",
+    "With cloud storage and synchronization, users can access and edit photos across multiple devices seamlessly. Lightroom also includes built-in tutorials and presets to inspire creativity.",
+    "Whether for casual photography or professional work, Adobe Lightroom empowers users to create stunning visuals. It combines powerful tools with intuitive design, making photo editing both creative and efficient."
+  ],
+    "size": 120,
+    "reviews": 4120,
+    "ratingAvg": 4.8,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "5 star", "count": 2620 },
+      { "name": "4 star", "count": 920 },
+      { "name": "3 star", "count": 330 },
+      { "name": "2 star", "count": 140 },
+      { "name": "1 star", "count": 110 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nMPMcxRD/adobe-acrobat.webp",
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe Inc.",
+    "id": 12,
+    "description": [
+    "Adobe Acrobat Reader is a trusted PDF viewing and editing app that allows users to read, annotate, and manage PDF documents with ease. It delivers a reliable and versatile platform for working with documents on the go.",
+    "The app supports viewing PDFs, filling forms, adding comments, and signing documents digitally. It ensures documents maintain their formatting and integrity across devices.",
+    "Adobe Acrobat Reader offers powerful search tools, document organization features, and integration with cloud storage platforms such as Adobe Document Cloud, Google Drive, and Dropbox.",
+    "The app also supports scanning physical documents into PDFs, converting files to PDF, and protecting documents with passwords. These tools make it ideal for personal and professional use.",
+    "Whether reviewing contracts, reading eBooks, or managing work documents, Adobe Acrobat Reader provides a complete solution for PDF handling. It’s the industry-standard tool for reliable document management."
+  ],
+    "size": 180,
+    "reviews": 32000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "5 star", "count": 19000 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "1 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cKvQryPc/quizlet.webp",
+    "title": "Quizlet",
+    "companyName": "Quizlet Inc.",
+    "id": 13,
+    "description": [
+    "Quizlet is a powerful study and learning app that uses interactive tools to make learning engaging and effective. It allows users to create study sets, flashcards, quizzes, and games to master topics quickly.",
+    "The app supports various learning modes, including flashcards, write mode, match games, and live quizzes, making it adaptable to different learning styles. Quizlet’s spaced repetition system helps improve memory retention over time.",
+    "Quizlet offers millions of user-generated study sets across subjects like language learning, science, history, and exam preparation. Students can explore these resources to expand their knowledge efficiently.",
+    "The platform supports collaborative learning, allowing users to share study sets and work together in real time. Quizlet’s intuitive interface and interactive features make studying both effective and enjoyable.",
+    "Whether for academic success, language learning, or exam preparation, Quizlet delivers a flexible and interactive learning experience. It transforms studying into a dynamic and engaging process."
+  ],
     "size": 65,
     "reviews": 1780,
     "ratingAvg": 4.5,
     "downloads": 950000,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 160 },
-      { "name": "3 star", "count": 250 },
+      { "name": "5 star", "count": 750 },
       { "name": "4 star", "count": 500 },
-      { "name": "5 star", "count": 750 }
+      { "name": "3 star", "count": 250 },
+      { "name": "2 star", "count": 160 },
+      { "name": "1 star", "count": 120 }
     ]
   },
   {
-    "image": "https://example.com/img/app12.png",
-    "title": "Musicify",
-    "companyName": "SoundScape",
-    "id": 12,
-    "description": "Stream millions of songs, create custom playlists, and enjoy high-quality sound with Musicify. Discover new artists and genres every day, or dive into curated playlists that match your mood. Download your favorite tracks for offline listening and share music with friends instantly. With an ad-free premium option and cross-device sync, your music is always within reach. Experience sound like never before with Musicify.",
+    "image": "https://i.ibb.co.com/KcD0gbZV/uber.webp",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 14,
+    "description": [
+    "Uber is a global ride-hailing platform that connects riders with drivers through a seamless mobile app. It offers reliable and convenient transportation options, whether you need a quick ride across town, a scheduled trip, or a luxury ride experience.",
+    "The app allows users to request rides with real-time tracking, fare estimates, and driver details. Uber provides multiple service options, including UberX, UberXL, Uber Black, and shared rides, catering to different needs and budgets.",
+    "Uber integrates advanced mapping and route optimization for efficient travel. Safety features such as driver ratings, trip sharing, and SOS alerts ensure secure journeys for riders.",
+    "Beyond rides, Uber offers food delivery through Uber Eats, package delivery, and more, making it a comprehensive mobility and delivery platform.",
+    "Whether commuting daily, traveling in a new city, or arranging transportation for special occasions, Uber delivers fast, reliable, and safe rides at your fingertips."
+  ],
     "size": 110,
-    "reviews": 8200,
-    "ratingAvg": 4.8,
-    "downloads": 5000000,
+    "reviews": 42000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
     "ratings": [
-      { "name": "1 star", "count": 300 },
-      { "name": "2 star", "count": 340 },
-      { "name": "3 star", "count": 600 },
-      { "name": "4 star", "count": 1500 },
-      { "name": "5 star", "count": 5460 }
+      { "name": "5 star", "count": 23000 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "1 star", "count": 1200 }
     ]
   },
   {
-    "image": "https://example.com/img/app13.png",
-    "title": "WeatherNow",
-    "companyName": "SkyWatch",
-    "id": 13,
-    "description": "Get hyper-accurate forecasts with WeatherNow — the weather app you can rely on. Receive real-time updates, severe weather alerts, and detailed radar maps for your region. Plan your day with hourly, daily, and 7-day forecasts powered by advanced meteorological models. Customize widgets and themes for your home screen to match your style. Whether you’re planning a trip or avoiding the rain, WeatherNow has you covered.",
+    "image": "https://i.ibb.co.com/hJHTpmsQ/daraz.webp",
+    "title": "Daraz",
+    "companyName": "Daraz Mobile",
+    "id": 15,
+    "description": [
+    "Daraz is a leading online shopping platform in South Asia, offering a wide range of products from electronics and fashion to groceries and home essentials. It combines convenience with a rich selection to make shopping effortless.",
+    "The app features personalized recommendations, daily deals, and flash sales to help users discover products at competitive prices. Daraz provides detailed product descriptions, reviews, and ratings for informed purchases.",
+    "Daraz integrates secure payment options and multiple delivery methods, ensuring a smooth shopping experience. Users can track orders in real time and benefit from easy returns and refunds.",
+    "With seasonal promotions, Daraz Mall for branded goods, and localized deals, the app caters to diverse shopping needs. It also offers vouchers, discounts, and loyalty programs.",
+    "Whether you’re looking for everyday essentials or special purchases, Daraz offers a reliable, convenient, and enjoyable online shopping experience."
+  ],
+    "size": 85,
+    "reviews": 25000,
+    "ratingAvg": 4.4,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "5 star", "count": 13000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "2 star", "count": 900 },
+      { "name": "1 star", "count": 1100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8STJ9XG/bkash.webp",
+    "title": "bKash",
+    "companyName": "bKash Limited",
+    "id": 16,
+    "description": [
+    "bKash is a leading mobile financial service provider, offering a safe and convenient way to send and receive money in Bangladesh. It enables users to manage transactions directly from their smartphones.",
+    "The app supports services such as mobile money transfers, bill payments, online purchases, and cash withdrawals. It delivers a seamless experience for both personal and business transactions.",
+    "bKash offers real-time transaction updates, secure authentication, and detailed history logs for transparency and peace of mind. Users can easily send money to family and friends or pay for goods and services instantly.",
+    "The platform integrates with a range of partners for bill payment, mobile recharge, and merchant payments, making it a comprehensive digital wallet solution.",
+    "Whether for everyday payments or large transactions, bKash simplifies financial interactions while prioritizing security and accessibility for all users."
+  ],
+    "size": 70,
+    "reviews": 18000,
+    "ratingAvg": 4.3,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "5 star", "count": 9000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "1 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/s8ZR85p/accuweather.webp",
+    "title": "AccuWeather",
+    "companyName": "AccuWeather, Inc.",
+    "id": 17,
+    "description": [
+    "AccuWeather is a leading weather app that delivers accurate and up-to-date forecasts, ensuring you’re prepared for any weather condition. It offers hyper-local weather updates for millions of locations worldwide.",
+    "The app provides hourly, daily, and extended forecasts with detailed information on temperature, precipitation, wind, and humidity. Severe weather alerts help users stay safe and informed.",
+    "AccuWeather integrates radar maps, weather news, and lifestyle forecasts, helping users plan activities based on weather conditions. Widgets and notifications make staying updated simple.",
+    "The app offers a clean, intuitive interface that delivers weather information quickly and clearly. Customization options allow users to set location preferences and alert types.",
+    "Whether for daily planning, travel, or outdoor activities, AccuWeather is a reliable companion that keeps you informed and ready for changing weather conditions."
+  ],
     "size": 50,
     "reviews": 2650,
     "ratingAvg": 4.3,
     "downloads": 1700000,
     "ratings": [
-      { "name": "1 star", "count": 190 },
-      { "name": "2 star", "count": 230 },
+      { "name": "5 star", "count": 930 },
+      { "name": "4 star", "count": 900 },
       { "name": "3 star", "count": 400 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 930 }
+      { "name": "2 star", "count": 230 },
+      { "name": "1 star", "count": 190 }
     ]
   },
   {
-    "image": "https://example.com/img/app14.png",
-    "title": "GameBooster X",
-    "companyName": "TurboPlay",
-    "id": 14,
-    "description": "Boost your gaming performance with GameBooster X. Optimize RAM, clean cache, and reduce lag instantly with one tap. Monitor real-time FPS and system temperature while gaming. With built-in battery saver and customizable modes, you can play longer and smoother. GameBooster X ensures your device runs at peak performance for every game you love.",
-    "size": 40,
-    "reviews": 3800,
-    "ratingAvg": 4.7,
-    "downloads": 2200000,
-    "ratings": [
-      { "name": "1 star", "count": 180 },
-      { "name": "2 star", "count": 220 },
-      { "name": "3 star", "count": 380 },
-      { "name": "4 star", "count": 900 },
-      { "name": "5 star", "count": 2120 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app15.png",
-    "title": "Shoply",
-    "companyName": "RetailSync",
-    "id": 15,
-    "description": "Experience a smarter way to shop with Shoply — your one-stop destination for online deals and discounts. Browse thousands of products from trusted brands, compare prices instantly, and track deliveries in real-time. Personalized recommendations help you find what you love faster. Shoply also rewards loyal users with cashback offers and coupons. Shopping made simple, secure, and fun.",
-    "size": 75,
-    "reviews": 5200,
-    "ratingAvg": 4.2,
-    "downloads": 3000000,
-    "ratings": [
-      { "name": "1 star", "count": 340 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 720 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 2540 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app16.png",
-    "title": "Langly",
-    "companyName": "PolyLingua",
-    "id": 16,
-    "description": "Learn a new language the fun and interactive way with Langly. Enjoy bite-sized lessons, speech recognition, and real conversations with native speakers. Langly adapts to your learning speed, helping you improve vocabulary and pronunciation effortlessly. Earn rewards as you progress and stay motivated with daily challenges. Speak confidently in your new language with Langly — your pocket tutor.",
-    "size": 105,
-    "reviews": 6900,
-    "ratingAvg": 4.8,
-    "downloads": 4500000,
-    "ratings": [
-      { "name": "1 star", "count": 220 },
-      { "name": "2 star", "count": 280 },
-      { "name": "3 star", "count": 500 },
-      { "name": "4 star", "count": 1200 },
-      { "name": "5 star", "count": 4700 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app17.png",
-    "title": "SafeNet",
-    "companyName": "CyberVault",
-    "id": 17,
-    "description": "Protect your online identity with SafeNet — your all-in-one VPN and cybersecurity solution. Browse the internet safely with military-grade encryption and global proxy servers. Block ads, trackers, and malware effortlessly while maintaining blazing-fast speeds. SafeNet ensures your personal data stays private whether you’re on Wi-Fi, mobile, or public networks. Experience true digital freedom with SafeNet.",
-    "size": 70,
-    "reviews": 3100,
-    "ratingAvg": 4.5,
-    "downloads": 1800000,
-    "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 350 },
-      { "name": "4 star", "count": 800 },
-      { "name": "5 star", "count": 1600 }
-    ]
-  },
-  {
-    "image": "https://example.com/img/app18.png",
-    "title": "Artify",
-    "companyName": "CanvasLab",
+    "image": "https://i.ibb.co.com/RpM5QhY1/trip-advisor.webp",
+    "title": "TripAdvisor",
+    "companyName": "Tripadvisor, Inc.",
     "id": 18,
-    "description": "Create stunning digital art with Artify — the perfect tool for artists of all levels. Experiment with brushes, layers, and AI-powered effects to bring your imagination to life. Artify supports stylus input and high-resolution canvases for professional-grade results. Save and share your artwork instantly across platforms. Whether sketching or illustrating, Artify empowers your creativity.",
-    "size": 125,
-    "reviews": 2550,
-    "ratingAvg": 4.6,
-    "downloads": 950000,
+    "description": [
+    "TripAdvisor is the world’s largest travel platform, offering reviews, recommendations, and booking tools for hotels, restaurants, attractions, and experiences. It helps travelers make informed decisions for unforgettable trips.",
+    "The app provides millions of reviews from real travelers, along with photos, ratings, and detailed descriptions. Users can explore destinations, compare prices, and discover hidden gems.",
+    "TripAdvisor integrates booking features for accommodations, tours, and activities, ensuring convenience and a seamless planning process. The interactive map feature helps users explore destinations visually.",
+    "With personalized recommendations and travel guides, TripAdvisor empowers travelers to create customized itineraries. The app also offers forums for Q&A, connecting travelers for advice and tips.",
+    "Whether planning a weekend getaway or an international journey, TripAdvisor is the ultimate travel companion that transforms how people explore the world."
+  ],
+    "size": 90,
+    "reviews": 2100,
+    "ratingAvg": 4.4,
+    "downloads": 1300000,
     "ratings": [
-      { "name": "1 star", "count": 120 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 300 },
-      { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 1280 }
+      { "name": "5 star", "count": 730 },
+      { "name": "4 star", "count": 750 },
+      { "name": "3 star", "count": 320 },
+      { "name": "2 star", "count": 170 },
+      { "name": "1 star", "count": 130 }
     ]
   },
   {
-    "image": "https://example.com/img/app19.png",
-    "title": "PetCare+",
-    "companyName": "HappyPaws",
+    "image": "https://i.ibb.co.com/m5JWxBK2/pixeldiary.webp",
+    "title": "PixelDiary",
+    "companyName": "TinyPixel",
     "id": 19,
-    "description": "Keep your furry friends healthy and happy with PetCare+. Track vet visits, vaccination schedules, and diet plans in one easy app. Set reminders for walks, grooming, and medications. PetCare+ also connects you with local vets and pet services nearby. Manage every aspect of your pet’s well-being with love and care — powered by PetCare+.",
+     "description": [
+    "PixelDiary is a digital journaling app designed to help users capture memories, ideas, and reflections in a visually rich format. It combines text, images, and mood tracking for a holistic journaling experience.",
+    "The app allows users to create daily entries with customizable layouts, background themes, and photo attachments. Entries can include tags, location information, and timestamps for better organization.",
+    "PixelDiary supports mood tracking and analytics, enabling users to reflect on their emotional journey over time. It offers privacy options, including passcode protection and local encryption.",
+    "The app integrates reminders and prompts to encourage consistent journaling, helping users build meaningful habits. Cloud synchronization ensures entries are accessible across devices.",
+    "Whether for personal reflection, creative writing, or mental health tracking, PixelDiary offers a secure and beautiful platform to document life’s moments."
+  ],
+    "size": 30,
+    "reviews": 80,
+    "ratingAvg": 4.8,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "5 star", "count": 60 },
+      { "name": "4 star", "count": 10 },
+      { "name": "3 star", "count": 5 },
+      { "name": "2 star", "count": 3 },
+      { "name": "1 star", "count": 2 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Q7w9RzqB/petdesk.webp",
+    "title": "PetDesk",
+    "companyName": "PetDesk, Inc.",
+    "id": 20,
+    "description": [
+    "PetDesk is a comprehensive pet care app that helps pet owners manage their furry friends’ health and wellbeing. It provides tools for appointment scheduling, medication tracking, and reminders.",
+    "The app allows users to store pet medical records, track vaccination schedules, and communicate with veterinarians directly. It delivers a centralized hub for pet care management.",
+    "PetDesk offers reminders for feeding, grooming, and medications, ensuring pets receive timely care. It also includes health tips and articles to support responsible pet ownership.",
+    "Users can connect with pet service providers such as veterinarians, groomers, and trainers for a holistic care experience. The app also provides pet-friendly location recommendations.",
+    "Whether caring for a dog, cat, or other pet, PetDesk simplifies pet care with organized tools and timely reminders, helping owners give their pets the best life possible."
+  ],
     "size": 60,
     "reviews": 1620,
     "ratingAvg": 4.4,
     "downloads": 720000,
     "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 130 },
-      { "name": "3 star", "count": 230 },
+      { "name": "5 star", "count": 640 },
       { "name": "4 star", "count": 520 },
-      { "name": "5 star", "count": 640 }
+      { "name": "3 star", "count": 230 },
+      { "name": "2 star", "count": 130 },
+      { "name": "1 star", "count": 100 }
     ]
   },
   {
-    "image": "https://example.com/img/app20.png",
-    "title": "HomeEase",
-    "companyName": "SmartNest",
-    "id": 20,
-    "description": "Control your smart home effortlessly with HomeEase. Connect your lights, thermostats, and locks — all in one intuitive dashboard. Schedule automations, set energy-saving routines, and get instant alerts for unusual activity. With voice assistant compatibility and secure cloud syncing, managing your home has never been easier. HomeEase brings comfort, control, and security right to your fingertips.",
+    "image": "https://i.ibb.co.com/k2hn7w4B/focusnote.webp",
+    "title": "FocusNote",
+    "companyName": "MindLabs Studio",
+    "id": 21,
+    "description": [
+    "FocusNote is a productivity app designed to help users capture ideas, organize thoughts, and focus on what matters most. It combines note-taking with task management to boost efficiency.",
+    "The app offers customizable note formats, tagging, and categorization, making it easy to organize information. Users can create checklists, set priorities, and link notes for deeper organization.",
+    "FocusNote includes distraction-free writing modes, dark themes, and focus timers to enhance concentration. It integrates search and filtering tools for quick retrieval of notes.",
+    "The app supports cloud sync, ensuring notes and tasks are accessible across devices. Collaboration features allow sharing and real-time editing with teams.",
+    "Whether for personal planning, study, or professional work, FocusNote delivers a clean and efficient platform to organize ideas and stay focused on goals."
+  ],
+    "size": 25,
+    "reviews": 210,
+    "ratingAvg": 4.6,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "5 star", "count": 140 },
+      { "name": "4 star", "count": 45 },
+      { "name": "3 star", "count": 15 },
+      { "name": "2 star", "count": 5 },
+      { "name": "1 star", "count": 5 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/M5pDVTdn/study-timer.webp",
+    "title": "StudyTimer",
+    "companyName": "FocusEdge",
+    "id": 22,
+    "description": [
+    "StudyTimer is a productivity app designed to help students and professionals manage study sessions using proven time management techniques. It combines focus timers with progress tracking to make studying more structured and effective.",
+    "The app offers customizable timer settings, allowing users to set study intervals, break periods, and daily goals. This flexibility helps create personalized study routines tailored to individual needs.",
+    "StudyTimer includes analytics to track time spent on tasks, providing insights into study habits and productivity trends. Users can review daily, weekly, and monthly summaries to optimize their schedules.",
+    "The app supports focus-enhancing features such as background music, minimal interface design, and reminders to keep users on track. It also allows note-taking alongside study sessions.",
+    "Whether preparing for exams or improving concentration, StudyTimer offers an easy and structured approach to managing study time, helping users stay disciplined and achieve their goals."
+  ],
+    "size": 15,
+    "reviews": 560,
+    "ratingAvg": 4.7,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "5 star", "count": 350 },
+      { "name": "4 star", "count": 130 },
+      { "name": "3 star", "count": 50 },
+      { "name": "2 star", "count": 20 },
+      { "name": "1 star", "count": 10 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TMwwP1jq/local-lens.webp",
+    "title": "LocalLens",
+    "companyName": "GeoVista",
+    "id": 23,
+    "description": [
+    "LocalLens is an exploration app that helps users discover places, events, and hidden gems in their local area. It delivers personalized recommendations based on location, interests, and real-time reviews.",
+    "The app integrates mapping and augmented reality features, making discovering nearby attractions interactive and engaging. Users can view places in AR mode, read reviews, and get directions instantly.",
+    "LocalLens offers curated guides for dining, shopping, entertainment, and outdoor activities. It pulls recommendations from trusted sources and community reviews for authenticity.",
+    "Users can create personal wishlists of places to visit, share discoveries with friends, and receive alerts for local events. The app supports social interaction with ratings, comments, and photos.",
+    "Whether exploring a new city or finding local experiences, LocalLens transforms everyday exploration into an interactive and personalized journey."
+  ],
+    "size": 50,
+    "reviews": 130,
+    "ratingAvg": 4.2,
+    "downloads": 9000,
+    "ratings": [
+      { "name": "5 star", "count": 60 },
+      { "name": "4 star", "count": 35 },
+      { "name": "3 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "1 star", "count": 5 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q3bhWnXJ/pet-mood.webp",
+    "title": "PetMood Tracker",
+    "companyName": "HappyTail Labs",
+    "id": 24,
+    "description": [
+    "PetMood Tracker is a unique app designed for pet owners to monitor their pets’ emotional wellbeing. It allows users to log moods, behaviors, and daily activities for better understanding of their pet’s health.",
+    "The app provides easy-to-use mood tracking tools, letting users record their pet’s emotional states with icons, notes, and photos. Over time, the data builds a detailed emotional profile.",
+    "PetMood Tracker includes reminders for feeding, medication, and exercise to help maintain a balanced routine. It also offers tips for improving pet wellbeing based on recorded patterns.",
+    "Users can share mood logs with veterinarians or other pet owners for better communication and care. The app includes secure cloud syncing so data is safe and accessible.",
+    "Whether for routine monitoring or improving pet care, PetMood Tracker offers a thoughtful way to keep pets happy, healthy, and understood."
+  ],
+    "size": 20,
+    "reviews": 65,
+    "ratingAvg": 4.5,
+    "downloads": 2500,
+    "ratings": [
+      { "name": "5 star", "count": 40 },
+      { "name": "4 star", "count": 15 },
+      { "name": "3 star", "count": 5 },
+      { "name": "2 star", "count": 3 },
+      { "name": "1 star", "count": 2 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/n8zTdX0R/habit-track.webps",
+    "title": "HabitTrack Mini",
+    "companyName": "BloomApps",
+    "id": 25,
+    "description": [
+    "HabitTrack Mini is a lightweight habit tracking app that helps users build and maintain positive habits. It offers a simple interface focused on tracking consistency and progress.",
+    "The app allows users to set habit goals, track daily completion, and view streaks to stay motivated. It provides visual progress reports and reminders to reinforce habit-building.",
+    "HabitTrack Mini supports flexible habit schedules, allowing users to track habits daily, weekly, or monthly. Users can categorize habits for better organization.",
+    "With motivational streak counters and minimal design, HabitTrack Mini makes habit tracking simple yet effective. It emphasizes usability and speed over complexity.",
+    "Whether building new habits or reinforcing existing ones, HabitTrack Mini provides a focused, efficient platform to improve productivity and wellbeing."
+  ], 
+    "size": 12,
+    "reviews": 45,
+    "ratingAvg": 4.9,
+    "downloads": 800,
+    "ratings": [
+      { "name": "5 star", "count": 38 },
+      { "name": "4 star", "count": 4 },
+      { "name": "3 star", "count": 2 },
+      { "name": "2 star", "count": 1 },
+      { "name": "1 star", "count": 0 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Kc0BWSVC/step-hero.webp",
+    "title": "StepHero",
+    "companyName": "FitGenix",
+    "id": 26,
+    "description": [
+    "StepHero is a fitness app designed to make walking and step-tracking engaging and rewarding. It gamifies daily activity, turning every step into part of a larger health journey.",
+    "The app tracks steps, distance, calories burned, and active minutes in real time. Users can set daily step goals and monitor progress with intuitive dashboards.",
+    "StepHero includes gamification features such as challenges, badges, and rewards to motivate users. It also integrates with health apps and wearables for comprehensive tracking.",
+    "The app offers social features, letting users join communities, share achievements, and challenge friends. This creates a supportive and competitive environment for fitness.",
+    "Whether for health, competition, or motivation, StepHero transforms walking into a fun and interactive experience, making every step count."
+  ],
+    "size": 40,
+    "reviews": 890,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "5 star", "count": 450 },
+      { "name": "4 star", "count": 250 },
+      { "name": "3 star", "count": 110 },
+      { "name": "2 star", "count": 50 },
+      { "name": "1 star", "count": 30 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/1Jty7gwj/nepture.webp",
+    "title": "Neptune",
+    "companyName": "Programming Hero",
+    "id": 27,
+    "description": [
+    "Neptune by Programming Hero is a learning platform designed to make coding education interactive and accessible. It offers hands-on coding lessons and projects to build practical skills.",
+    "The app provides structured lessons in various programming languages, coding challenges, and real-world projects. It integrates gamification elements to make learning engaging.",
+    "Neptune includes interactive coding environments where users can practice and test code directly within the app. Progress tracking helps learners stay motivated and measure improvement.",
+    "The platform fosters a community of learners, enabling collaboration, code sharing, and peer support. Mentorship options enhance the learning journey.",
+    "Whether for beginners or experienced developers, Neptune offers a comprehensive and interactive learning experience, making coding accessible, enjoyable, and effective."
+  ],
     "size": 95,
     "reviews": 1980,
     "ratingAvg": 4.5,
     "downloads": 1250000,
     "ratings": [
-      { "name": "1 star", "count": 130 },
-      { "name": "2 star", "count": 160 },
-      { "name": "3 star", "count": 300 },
+      { "name": "5 star", "count": 690 },
       { "name": "4 star", "count": 700 },
-      { "name": "5 star", "count": 690 }
+      { "name": "3 star", "count": 300 },
+      { "name": "2 star", "count": 160 },
+      { "name": "1 star", "count": 130 }
     ]
   }
 ]

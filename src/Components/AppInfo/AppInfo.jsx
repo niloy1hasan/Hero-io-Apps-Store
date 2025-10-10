@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 const AppInfo = ({appInfo}) => {
     const installBtn = useRef(null);
     const [isInstallDisabled, setInstallDisabled] = useState(false);
-    const {id, title, companyName, ratingAvg, downloads, reviews, size} = appInfo;
+    const {id, image, title, companyName, ratingAvg, downloads, reviews, size} = appInfo;
 
     const appStates = JSON.parse(localStorage.getItem('installedApps')) || [];
 
@@ -24,7 +24,7 @@ const AppInfo = ({appInfo}) => {
     return (
         <div className='flex flex-col items-center gap-7 lg:items-start lg:flex-row py-20'>
             <div>
-                <img src="/src/assets/demo-app2.webp" alt=""  className='w-[250px] h-[250px] lg:w-[350px] lg:h-[350px]'/>
+                <img src={image} alt=""  className='w-[250px] h-[250px] lg:w-[350px] lg:h-[350px]'/>
             </div>
             <div className='flex-1 flex flex-col justify-center text-center lg:text-left items-center lg:items-start'>
                 <div>
