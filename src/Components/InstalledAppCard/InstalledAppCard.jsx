@@ -12,12 +12,12 @@ const InstalledAppCard = ({installedApp, handleUninstall}) => {
     }
     return (
         <div className='bg-white flex flex-col md:flex-row gap-4 justify-between items-start md:items-center px-2 py-3 md:p-4 rounded-sm'>
-            <div onClick={handleNavigate} className='flex gap-3 items-start lg:items-center'>
+            <div className='flex gap-3 items-start lg:items-center'>
                 <div>
-                    <img src={image} className='w-14 h-14 lg:w-20 lg:h-20 rounded-lg' alt="" />
+                    <img src={image} onClick={handleNavigate} className='w-14 cursor-pointer h-14 lg:w-20 lg:h-20 rounded-lg' alt="" />
                 </div>
                 <div className='flex-1 flex flex-col gap-1 lg:gap-4'>
-                        <h2 className='font-medium text-[#001931]'>{title}</h2>
+                        <h2 onClick={handleNavigate} className='font-medium cursor-pointer text-[#001931]'>{title}</h2>
                     <div className='flex gap-4'>
                         <div className='flex items-center gap-1'>
                             <Download size={16} color="#00D390" />

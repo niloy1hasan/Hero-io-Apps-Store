@@ -7,6 +7,7 @@ const AllApps = () => {
   const [appData, setAppData] = useState(data);
   const [searchData, setsearchData] = useState('');
   const [isEmptyList, setEmptyList] = useState(false);
+  const [isSearching, setSearching] = useState(false);
 
   const searchRef = useRef(null);
 
@@ -17,10 +18,12 @@ const AllApps = () => {
   }
 
  const handleInput = (e) => {
+  setSearching(true);
   const value = e.target.value;
   setsearchData(value);
   
-  if(value.length>0){
+  setTimeout(() => {
+    if(value.length>0){
     const newData = data.filter(item => item.title.toLowerCase().startsWith(value.toLowerCase()));
     setAppData(newData);
     if(newData.length<=0){
@@ -32,6 +35,10 @@ const AllApps = () => {
     setAppData(data);
     setEmptyList(false);
   }
+
+  setSearching(false);
+  }, 100);
+  
  }
 
   return (
@@ -48,6 +55,15 @@ const AllApps = () => {
         </label>
       </div>
 
+        {isSearching && 
+      <div className='h-[60vh] flex justify-center font-semibold text-gray-900 text-3xl'>
+        <div className='flex items-center'>
+          <span>L</span>
+         <img src="/src/assets/logo.png" className='mx-1 h-8 w-8 animate-spin' alt="" />
+         <span>ading...</span>
+        </div>
+      </div>
+        }
         <AppsContainer appData={appData}></AppsContainer>
         
         <section className={`${isEmptyList? 'flex':'hidden'} h-fit pb-10 w-10/12 mx-auto text-center justify-center items-center`}>

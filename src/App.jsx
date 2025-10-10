@@ -1,11 +1,12 @@
-import { Outlet } from 'react-router'
+import { Outlet, useNavigation } from 'react-router'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import { ToastContainer } from 'react-toastify';
 
 function App() {
-  
+  const navigation = useNavigation();
+  const isNavigating = Boolean(navigation.location);
 
   return (
     <>
@@ -13,6 +14,15 @@ function App() {
       <Navbar></Navbar>
     </header>
     <main className='max-w-[1600px] mx-auto bg-[#f5f5f5]'>
+      {isNavigating && 
+      <div className='h-[100vh] flex justify-center font-semibold text-gray-900 text-3xl'>
+        <div className='flex items-center'>
+          <span>L</span>
+         <img src="/src/assets/logo.png" className='mx-1 h-8 w-8 animate-spin' alt="" />
+         <span>ading...</span>
+        </div>
+      </div>
+        }
       <Outlet></Outlet>
     </main>
     <Footer></Footer>

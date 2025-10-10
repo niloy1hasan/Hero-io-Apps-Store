@@ -3,7 +3,6 @@ import { Area, Bar, CartesianGrid, ComposedChart, Legend, Line, Rectangle, Respo
 
 
 const Ratings = ({ratings}) => {
-console.log(ratings);
 //     const data = [
 //   {
 //     name: '5 star',
