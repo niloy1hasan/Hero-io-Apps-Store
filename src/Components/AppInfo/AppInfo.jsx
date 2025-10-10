@@ -1,6 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { NumberFormat } from '../../utils/NumberFormat';
 import { toast } from 'react-toastify';
+import ratingsIcon from '../../assets/icon-ratings.png';
+import iconDownloads from '../../assets/icon-downloads.png';
+import iconReview from '../../assets/icon-review.png';
+
 
 const AppInfo = ({appInfo}) => {
     const installBtn = useRef(null);
@@ -35,17 +39,17 @@ const AppInfo = ({appInfo}) => {
 
                 <div className='lg:flex hidden my-8 gap-20'>
                     <div className='flex flex-col gap-2  items-center lg:items-start'>
-                        <img src="/src/assets/icon-downloads.png" className='h-10 w-10' alt="" />
+                        <img src={iconDownloads} className='h-10 w-10' alt="" />
                         <p className='text-[#001931]'>Downloads</p>
                         <h2 className='font-bold text-4xl text-[#001931]'>{NumberFormat(downloads)}</h2>
                     </div>
                     <div className='flex flex-col gap-2  items-center lg:items-start'>
-                        <img src="/src/assets/icon-ratings.png" className='h-10 w-10' alt="" />
+                        <img src={ratingsIcon} className='h-10 w-10' alt="" />
                         <p className='text-[#001931]'>Average Ratings</p>
                         <h2 className='font-bold text-4xl text-[#001931]'>{ratingAvg}</h2>
                     </div>
                     <div className='flex flex-col gap-2 items-center lg:items-start'>
-                        <img src="/src/assets/icon-review.png" className='h-10 w-10' alt="" />
+                        <img src={iconReview} className='h-10 w-10' alt="" />
                         <p className='text-[#001931]'>Total Reviews</p>
                         <h2 className='font-bold text-4xl text-[#001931]'>{NumberFormat(reviews)}</h2>
                     </div>
@@ -54,17 +58,17 @@ const AppInfo = ({appInfo}) => {
 
                 <div className='flex lg:hidden my-8 items-center justify-between gap-5 w-full'>
                     <div className='flex flex-col gap-2 items-center'>
-                        <img src="/src/assets/icon-downloads.png" className='h-5 w-5' alt="" />
+                        <img src={iconDownloads} className='h-5 w-5' alt="" />
                         <p className='text-[#001931] text-[12px]'>Downloads</p>
                         <h2 className='font-bold text-3xl text-[#001931]'>{NumberFormat(downloads)}</h2>
                     </div>
                     <div className='flex flex-col gap-2  items-center'>
-                        <img src="/src/assets/icon-ratings.png" className='h-5 w-5' alt="" />
+                        <img src={ratingsIcon} className='h-5 w-5' alt="" />
                         <p className='text-[#001931] text-[12px]'>Average Ratings</p>
                         <h2 className='font-bold text-3xl text-[#001931]'>{ratingAvg}</h2>
                     </div>
                     <div className='flex flex-col gap-2 items-center'>
-                        <img src="/src/assets/icon-review.png" className='h-5 w-5' alt="" />
+                        <img src={iconReview} className='h-5 w-5' alt="" />
                         <p className='text-[#001931] text-[12px]'>Total Reviews</p>
                         <h2 className='font-bold text-3xl text-[#001931]'>{NumberFormat(reviews)}</h2>
                     </div>

@@ -1,4 +1,7 @@
 import React from 'react';
+import playStore from '../../assets/playstore.png';
+import appStore from '../../assets/app-store.png';
+import hero from '../../assets/hero.png';
 
 const Banner = () => {
     return (
@@ -7,16 +10,16 @@ const Banner = () => {
             <p className='text-center text-[#627382] w-9/12 mx-auto py-6 text-[16px]'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             <div className='flex flex-col md:flex-row gap-4 font-semibold justify-center items-center'>
                 <a className='btn p-3' href='https://play.google.com/'>
-                    <img src="/src/assets/playstore.png" className='w-7 h-7 mr-1' alt="" />
+                    <img src={playStore} className='w-7 h-7 mr-1' alt="" />
                     <span>Google Play</span>
                 </a>
                 <a className='btn p-3' href='https://www.apple.com/app-store/'>
-                    <img src="/src/assets/app-store.png" className='w-7 h-7 mr-1' alt="" />
+                    <img src={appStore} className='w-7 h-7 mr-1' alt="" />
                     <span>App Store</span>
                 </a>
             </div>
             <div className='mt-6'>
-                <img src="/src/assets/hero.png" className='mx-auto w-72 md:w-160 lg:w-200' alt="" />
+                <img src={hero} className='mx-auto w-72 md:w-160 lg:w-200' alt="" />
             </div>
         </section>
     );

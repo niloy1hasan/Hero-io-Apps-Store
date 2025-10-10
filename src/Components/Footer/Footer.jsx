@@ -6,7 +6,7 @@ const Footer = () => {
             <div className='flex flex-col gap-8 lg:flex-row  justify-around pt-10 px-10 lg:px-10 lg:pt-20'>
                 <div className='flex flex-col gap-4 lg:gap-6'>
                    <div className='flex items-center gap-2'>
-                     <img src="/src/assets/logo.png" className='h-10 w-10' alt="" />
+                     <img src="/logo.png" className='h-10 w-10' alt="" />
                      <h2 className='font-extrabold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-2xl bg-clip-text text-transparent'>HERO.IO</h2>
                    </div>
                    <p className='lg:max-w-92'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.</p>

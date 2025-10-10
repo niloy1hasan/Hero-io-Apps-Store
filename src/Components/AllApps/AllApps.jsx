@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import AppsContainer from "../AppsContainer/AppsContainer";
 import { useLoaderData } from "react-router";
 import ScrollTop from "../ScrollTop/ScrollTop";
+import appError from "../../assets/app-error.png";
 
 const AllApps = () => {
   const data = useLoaderData();
@@ -60,7 +61,7 @@ const AllApps = () => {
       <div className='h-[60vh] flex justify-center font-semibold text-gray-900 text-3xl'>
         <div className='flex items-center'>
           <span>L</span>
-         <img src="/src/assets/logo.png" className='mx-1 h-8 w-8 animate-spin' alt="" />
+         <img src="/logo.png" className='mx-1 h-8 w-8 animate-spin' alt="" />
          <span>ading...</span>
         </div>
       </div>
@@ -70,7 +71,7 @@ const AllApps = () => {
         
         <section className={`${isEmptyList? 'flex':'hidden'} h-fit pb-10 w-10/12 mx-auto text-center justify-center items-center`}>
             <div>
-                <img src="/src/assets/app-error.png" className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
+                <img src={appError} className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
                 <div className='my-8'>
                     <h1 className='text-[#001931] font-bold text-3xl'>OPPS!! APP NOT FOUND</h1>
                 <p className='text-[#627382] py-2'>The App you are searching is not found on our system.  please search another apps</p>

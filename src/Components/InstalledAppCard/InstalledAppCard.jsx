@@ -3,6 +3,7 @@ import React from 'react';
 import { NumberFormat } from '../../utils/NumberFormat';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router';
+import ratingsIcon from '../../assets/icon-ratings.png'
 
 const InstalledAppCard = ({installedApp, handleUninstall}) => {
     const {id, image, title, downloads, size, ratingAvg} = installedApp;
@@ -24,7 +25,7 @@ const InstalledAppCard = ({installedApp, handleUninstall}) => {
                             <span className='font-medium text-[#00D390]'>{NumberFormat(downloads)}</span>
                         </div>
                         <div className='flex items-center gap-1'>
-                            <img src="/src/assets/icon-ratings.png" className='h-4 w-4' alt="" />
+                            <img src={ratingsIcon} className='h-4 w-4' alt="" />
                                 <span className='text-[#FF8811] font-bold'>{ratingAvg}</span>
                         </div>
                         <div>

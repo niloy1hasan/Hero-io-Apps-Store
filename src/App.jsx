@@ -19,7 +19,7 @@ function App() {
       <div className='h-[100vh] flex justify-center font-semibold text-gray-900 text-3xl'>
         <div className='flex items-center'>
           <span>L</span>
-         <img src="/src/assets/logo.png" className='mx-1 h-8 w-8 animate-spin' alt="" />
+         <img src="/logo.png" className='mx-1 h-8 w-8 animate-spin' alt="" />
          <span>ading...</span>
         </div>
       </div>

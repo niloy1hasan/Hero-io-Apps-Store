@@ -2,6 +2,8 @@ import { Download } from 'lucide-react';
 import React from 'react';
 import { useNavigate } from 'react-router';
 import { NumberFormat } from '../../utils/NumberFormat';
+import ratingsIcon from '../../assets/icon-ratings.png'
+
 
 const AppCard = ({data}) => {
     const navigate = useNavigate();
@@ -24,7 +26,7 @@ const AppCard = ({data}) => {
                     <span className='text-[#00D390] font-bold'>{NumberFormat(downloads)}</span>
                 </div>
                 <div className='flex items-center gap-1.5 bg-[#FFF0E1] py-1.5 px-3 rounded-sm'>
-                    <img src="/src/assets/icon-ratings.png" className='w-4 h-4' alt="" />
+                    <img src={ratingsIcon} className='w-4 h-4' alt="" />
                     <span className='text-[#FF8811] font-bold'>{ratingAvg}</span>
                 </div>
             </div>

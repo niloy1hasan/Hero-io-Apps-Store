@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router';
+import appError from "../../assets/app-error.png";
 
 const AppsNotFound = () => {
     const navigate = useNavigate();
@@ -9,7 +10,7 @@ const AppsNotFound = () => {
     return (
         <section className='h-[100vh] w-10/12 mx-auto text-center flex justify-center items-center'>
             <div>
-                <img src="/src/assets/app-error.png" className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
+                <img src={appError} className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
                 <div className='my-8'>
                     <h1 className='text-[#001931] font-bold text-3xl'>OPPS!! APP NOT FOUND</h1>
                 <p className='text-[#627382] py-2'>The App you are requesting is not found on our system.  please try another apps</p>

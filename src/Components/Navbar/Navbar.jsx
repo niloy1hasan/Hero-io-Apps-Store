@@ -23,7 +23,7 @@ const Navbar = () => {
                 
                     <NavLink to='/'>
                         <div className='flex gap-2 items-center cursor-pointer'>
-                            <img src='/src/assets/logo.png' alt="" className='h-8 w-8'/>
+                            <img src='/logo.png' alt="" className='h-8 w-8'/>
                             <h2 className='font-extrabold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>HERO.IO</h2>
                         </div>
                     </NavLink>

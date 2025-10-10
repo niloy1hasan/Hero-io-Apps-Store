@@ -1,4 +1,5 @@
 import React from 'react';
+import loadError from '../../assets/error-404.png';
 
 const CommonError = () => {
     const handleClick = () => {
@@ -8,7 +9,7 @@ const CommonError = () => {
     return (
         <section className='h-[100vh] w-10/12 mx-auto text-center flex justify-center items-center'>
             <div>
-                <img src="/src/assets/error-404.png" className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
+                <img src={loadError} className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] mx-auto' alt="" />
                 <div className='my-8'>
                     <h1 className='text-[#001931] font-bold text-3xl'>Oops, Something is Wrong!</h1>
                 <p className='text-[#627382] py-2'>The page faced Problem for Network Error.</p>
