@@ -18,7 +18,7 @@ const Installation = () => {
         setLoading(false);
       }, 100);
       return () => clearTimeout(timer); 
-    }, [installedList]);
+    }, []);
     
     const handleUninstall = (id) => {
       const newData = installed.filter(item => item.id!=id);
