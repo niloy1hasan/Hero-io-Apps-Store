@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { NumberFormat } from '../../utils/NumberFormat';
+import { toast } from 'react-toastify';
 
 const AppInfo = ({appInfo}) => {
     const installBtn = useRef(null);
@@ -15,7 +16,7 @@ const AppInfo = ({appInfo}) => {
 
     const installHandle = () => {
         setInstallDisabled(true);
-
+        toast(`${title} app is installed`);
         const updatedApps = [...appStates, appInfo];
         localStorage.setItem('installedApps', JSON.stringify(updatedApps));
     }

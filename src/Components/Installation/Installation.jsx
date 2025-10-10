@@ -31,8 +31,8 @@ const Installation = () => {
       <div className="flex items-center gap-3 py-4 justify-between w-[85%] lg:w-[90%] mx-auto">
         <h3 className="font-semibold text-[16px] lg:text-[20px]"><span>({installed.length})</span> Apps Found</h3>
 
-        <select onChange={sortSelection} defaultValue="Sort By" className="select w-36 lg:w-48 bg-[#f5f5f5]">
-          <option disabled={true}>Sort By</option>
+        <select onChange={sortSelection} defaultValue="Sort By Downloads" className="select w-44 lg:w-48 bg-[#f5f5f5]">
+          <option disabled={true}>Sort By Downloads</option>
           <option>High to Low</option>
           <option>Low to High</option>
         </select>

@@ -1,6 +1,7 @@
 import { Download } from 'lucide-react';
 import React from 'react';
 import { NumberFormat } from '../../utils/NumberFormat';
+import { toast } from 'react-toastify';
 
 const InstalledAppCard = ({installedApp, handleUninstall}) => {
     const {id, title, downloads, size, ratingAvg} = installedApp;
@@ -27,7 +28,7 @@ const InstalledAppCard = ({installedApp, handleUninstall}) => {
                     </div>
                 </div>
             </div>
-            <button onClick={()=> handleUninstall(id)} className='btn bg-[#00D390] w-full md:w-fit text-white'>Uninstall</button>
+            <button onClick={()=> {toast(`${title} app is uninstalled`); handleUninstall(id);}} className='btn bg-[#00D390] w-full md:w-fit text-white'>Uninstall</button>
         </div>
     );
 };
