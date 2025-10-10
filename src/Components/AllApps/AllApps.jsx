@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import AppsContainer from "../AppsContainer/AppsContainer";
 import { useLoaderData } from "react-router";
+import ScrollTop from "../ScrollTop/ScrollTop";
 
 const AllApps = () => {
   const data = useLoaderData();
@@ -64,6 +65,7 @@ const AllApps = () => {
         </div>
       </div>
         }
+        <ScrollTop/> 
         <AppsContainer appData={appData}></AppsContainer>
         
         <section className={`${isEmptyList? 'flex':'hidden'} h-fit pb-10 w-10/12 mx-auto text-center justify-center items-center`}>

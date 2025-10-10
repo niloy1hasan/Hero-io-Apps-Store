@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Footer from './Components/Footer/Footer'
 import { ToastContainer } from 'react-toastify';
+import ScrollTop from './Components/ScrollTop/ScrollTop';
 
 function App() {
   const navigation = useNavigation();
@@ -23,6 +24,7 @@ function App() {
         </div>
       </div>
         }
+       <ScrollTop/> 
       <Outlet></Outlet>
     </main>
     <Footer></Footer>
